@@ -96,8 +96,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Instalaciones pecuarias',
+            titulo: 'Instalaciones pecuarias',
             hash: 't_3_1',
           },
           {
@@ -118,8 +117,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo:
-              'Recursos técnicos',
+            titulo: 'Recursos técnicos',
             hash: 't_4_1',
           },
           {
@@ -139,7 +137,7 @@ export default {
             numero: '4.4',
             titulo: 'Elaboración de cronogramas',
             hash: 't_4_4',
-          },                    
+          },
         ],
       },
       {
@@ -152,8 +150,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.1',
-            titulo:
-              'Manuales de operación de equipos',
+            titulo: 'Manuales de operación de equipos',
             hash: 't_5_1',
           },
           {
@@ -175,8 +172,7 @@ export default {
             hash: 't_5_4',
           },
         ],
-      },      
-
+      },
     ],
     subMenu: [
       {
@@ -221,8 +217,7 @@ export default {
     {
       referencia:
         'Estrada, L., I., Esparza, J., S., Albarrán, P., B., Yong Á., G., Rayas, A., A. A., García, M., A. (2018).Evaluación productiva y económica de un sistema silvopastoril intensivo en bovinos doble propósito en Michoacán, México.CIENCIA ergo- sum, 25(3)',
-      link:
-        'https://doi.org/10.30878/ces.v25n3a7',
+      link: 'https://doi.org/10.30878/ces.v25n3a7',
     },
     {
       referencia:
@@ -255,7 +250,8 @@ export default {
       texto:
         'Pertuz, C. A. (2021). Análisis ambiental de las fuentes generadoras de pollinaza, porquinaza y bovinaza objeto de control y seguimiento ambiental por parte de la Corporación Autónoma Regional del Atlántico -CRA-. (Tesis de grado). Universidad de la Costa, Barranquilla, Colombia.',
       tipo: 'Tesis',
-      link: 'https://repositorio.cuc.edu.co/bitstream/handle/11323/8393/An%C3%A1lisis%20ambiental%20de%20las%20fuentes%20generadoras%20de%20pollinaza%2C%20porquinaza%20y%20bovinaza%20objeto%20de%20control%20y%20seguimiento%20ambiental%20por%20parte%20de%20la%20Corporaci%C3%B3n%20Aut%C3%B3noma%20Regional%20del%20Atl%C3%A1ntico%20-CRA.pdf?sequence=1&isAllowed=y',
+      link:
+        'https://repositorio.cuc.edu.co/bitstream/handle/11323/8393/An%C3%A1lisis%20ambiental%20de%20las%20fuentes%20generadoras%20de%20pollinaza%2C%20porquinaza%20y%20bovinaza%20objeto%20de%20control%20y%20seguimiento%20ambiental%20por%20parte%20de%20la%20Corporaci%C3%B3n%20Aut%C3%B3noma%20Regional%20del%20Atl%C3%A1ntico%20-CRA.pdf?sequence=1&isAllowed=y',
     },
     {
       texto:
@@ -282,20 +278,17 @@ export default {
       {
         nombre: 'Carlos Andrés Sánchez Suárez',
         cargo: 'Experto temático',
-        centro:
-          'Centro Agropecuario La Granja',
+        centro: 'Centro Agropecuario La Granja',
       },
       {
         nombre: 'Angela María Zapata Guzmán',
         cargo: 'Diseñadora Instruccional',
-        centro:
-          'Ecosistema',
+        centro: 'Ecosistema',
       },
       {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora Metodológica y Pedagógica',
-        centro:
-          'Centro Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
@@ -303,7 +296,6 @@ export default {
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
-      
     ],
     desarrolloProducto: [
       {
@@ -334,7 +326,7 @@ export default {
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },      
+      },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
