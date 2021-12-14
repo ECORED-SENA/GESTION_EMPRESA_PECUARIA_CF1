@@ -4,7 +4,7 @@ export default {
       'Consideraciones para el establecimiento y operación de unidades productivas pecuarias',
     descripcionCurso:
       'Conseguir unidades pecuarias organizadas conforme a los parámetros técnicos requiere de un trabajo previo que implica, entre otras cosas, la identificación del tipo de explotación que se llevará a cabo, el conocimiento de la normatividad aplicable, la definición de los recursos disponibles y el conocimiento de los procesos que conlleva la implementación de este tipo de sistemas en diversos entornos rurales',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
