@@ -93,6 +93,17 @@
             p.mb-0 Los sistemas productivos pecuarios están integrados por diversos componentes que se deben articular de manera precisa para conseguir los resultados esperados en materia de rendimientos y calidad del producto final. En términos generales, los elementos que componen cualquier sistema productivo pecuario 
               span.text-green son la especie animal, el alimento, las instalaciones, los equipos y herramientas, las condiciones agroecológicas y el manejo.
 
+    .tarjeta.bg-sliders.p-5.mb-5.shadow-box
+      SlyderA
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Entre las especies animales más empleadas en sistemas pecuarios están los ovinos, caprinos, equinos, porcinos, aves y mamíferos pequeños como conejos y cuyes. También se encuentran insectos, reptiles y anélidos, como la lombriz de tierra. 
+        
+          .col-md-6
+            figure
+              img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
+            figcaption Especie animal
+
 
 
 
@@ -101,7 +112,45 @@
     br
     #t_1_4.titulo-segundo.color-secundario
       h2 1.4  Principales explotaciones pecuarias
+    .row.mb-5
+      .col-lg-1
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+      .col-lg-11(data-aos='slide-left')
+        p.mb-0  Las explotaciones pecuarias son tan diversas como lo son las especies animales, pues son múltiples las iniciativas de crianza y beneficio que se han desarrollado en diferentes latitudes. Incluso algunas de ellas pueden resultar exóticas dependiendo del contexto en el que se desarrollen. No obstante, de acuerdo con su importancia económica y el volumen de la producción, en el ámbito nacional las principales explotaciones pecuarias podrían agruparse en las siguientes categorías:
+    
+    //-- Aqui viene un componente que no se ha definido
 
+    h3.titulo-tercero Aplicabilidad de los registros
+    p.mb-5  Los registros son muy útiles para evaluar y monitorear la situación ambiental del agroecosistema, entre otras aplicaciones:
+    .row.mb-5
+      .col-lg-5
+        //--
+          figure(data-aos='flip-left')
+            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+      .col-lg-7
+        ul.lista-ul(data-aos='slide-right')
+          li
+            i.fas.fa-check
+            p.mb-0  Sirven como historial ambiental del agroecosistema.
+          li
+            i.fas.fa-check
+            p.mb-0  Permite medir el impacto positivo o negativo de las prácticas de manejo ecológico o agroecológico, o el avance del agroecosistema cuando se avanza en un proceso de reconversión o transición.              
+          li
+            i.fas.fa-check
+            p.mb-0  Permiten observar cambios bruscos en el agroecosistema y analizar la fuente del problema. Por ejemplo: un descenso en la población de abejas puede indicar alguna fuente de contaminación con agroquímicos.    
+          li
+            i.fas.fa-check
+            p.mb-0  Son documentos válidos tenidos en cuenta en procesos de certificación ecológica o de esquemas de sostenibilidad.             
+          li
+            i.fas.fa-check
+            p.mb-0  Sirven para comparar el agroecosistema con otros aledaños.    
+          li
+            i.fas.fa-check
+            p.mb-0  Sirven para comparar el agroecosistema con otros aledaños.             
+          li
+            i.fas.fa-check
+            p.mb-0  Son un insumo esencial para graficar y procesar la información ambiental del agroecosistema, y en general del plan de manejo aplicado.    
 
 
     Separador
@@ -109,6 +158,27 @@
     br
     #t_1_5.titulo-segundo.color-secundario
       h2 1.5  Parámetros productivos
+    .row.mb-5
+      .col-lg-7
+        p.mb-4  Dependiendo de lo que se quiera medir al interior de la explotación pecuaria se pueden identificar y cuantificar cuantos parámetros productivos se consideren necesarios, para lo cual es necesario diseñar y diligenciar registros que permitan hacer un seguimiento detallado del comportamiento de estos importantes indicadores.
+        h3.titulo-tercero Parámetros productivos
+        p.mb-5  Los parámetros productivos son variables cuantificables y observables que permiten analizar detalladamente el comportamiento de las unidades pecuarias en cualquiera de sus etapas, estos permiten evaluar los rendimientos y, además, facilitar la toma de decisiones administrativas teniendo en cuenta factores técnicos y productivos. Algunos de los parámetros productivos que se pueden medir al interior de las principales explotaciones pecuarias son los siguientes:
+
+      .col-lg-5
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-i4.jpg' alt='imagen decorativa') 
+
+    TabsC.color-primario
+      .py-3.py-md-4(titulo="Parámetros productivos bovinos, bufalinos, ovinos y caprinos")
+        .row
+          .col-lg-12
+            h4 Parámetros productivos bovinos, bufalinos, ovinos y caprinos
+          .col-md-4.mb-4.mb-md-0
+            figure(data-aos='flip-left')
+              img(src='@/assets/curso/t1-t1.jpg' alt='imagen decorativa')             
+        
+          .col-md-8
+            //-- Aqui viene la tabla
 
 
 
@@ -119,6 +189,16 @@
     #t_1_6.titulo-segundo.color-secundario
       h2 1.6  Buenas prácticas pecuarias
 
+    .row.mb-5.justify-content-center
+      .col-lg-10.slideInLeft
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/t1-i2.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4.shadow-box
+            p.mb-0 
+              span.text-green  Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios;
+              span &nbsp;a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
 
 
 
