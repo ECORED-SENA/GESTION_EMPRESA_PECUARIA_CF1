@@ -187,7 +187,7 @@
                     th Unidad
                 tbody
                   tr
-                    td(rowspan='3') Bovinos - bufalinos - ovinos - caprinos
+                    td(rowspan='11') Bovinos - bufalinos - ovinos - caprinos
                     td Peso promedio al nacer.
                     td Kg.
                   tr
