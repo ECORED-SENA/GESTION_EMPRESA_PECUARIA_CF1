@@ -171,17 +171,55 @@
     TabsC.color-primario
       .py-3.py-md-4(titulo="Parámetros productivos bovinos, bufalinos, ovinos y caprinos")
         .row
-          .col-lg-12
-            h4 Parámetros productivos bovinos, bufalinos, ovinos y caprinos
+          .col-lg-12.mb-4
+            .h5 Parámetros productivos bovinos, bufalinos, ovinos y caprinos
           .col-md-4.mb-4.mb-md-0
             figure(data-aos='flip-left')
               img(src='@/assets/curso/t1-t1.jpg' alt='imagen decorativa')             
         
           .col-md-8
-            //-- Aqui viene la tabla
-
-
-
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Parámetro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='3') Bovinos - bufalinos - ovinos - caprinos
+                    td Peso promedio al nacer.
+                    td Kg.
+                  tr
+                    td Peso promedio al destete.
+                    td Kg.
+                  tr
+                    td Edad promedio al destete.
+                    td Meses
+                  tr
+                    td Número de terneros.
+                    td Número de animales
+                  tr
+                    td Número de terneras.
+                    td  Número de animales
+                  tr
+                    td  Porcentaje de nacimiento de hembras. 
+                    td  Porcentaje
+                  tr
+                    td  Mortalidad anual de lactantes. 
+                    td  Número de animales
+                  tr
+                    td  Mortalidad anual de adultos. 
+                    td  Número de animales
+                  tr
+                    td  Producción de leche diaria. 
+                    td  Litros
+                  tr
+                    td  Número mensual de partos. 
+                    td  Número de partos
+                  tr
+                    td  Ganancia de peso mensual. 
+                    td  Kilogramos / mes
 
     Separador
     br
@@ -193,19 +231,60 @@
       .col-lg-10.slideInLeft
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/t1-i2.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/t1-i5.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 
               span.text-green  Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios;
               span &nbsp;a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
 
+    h3.titulo-tercero Buenas Prácticas Pecuarias - BPP
+    .row.mb-5
+      .col-lg-1
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-ic1.svg' alt='icono decorativa')    
+      .col-lg-8
+        p.mb-0  Según el Instituto Colombiano Agropecuario, estas se relacionan con las prácticas que se deben llevar a cabo en los sistemas pecuarios para disminuir los riesgos físicos, químicos y biológicos que puedan llegar a afectar la salud de los consumidores.
+      .col-lg-3
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-l1.png' alt='imagen decorativa')    
+    
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .titulo-quinto.color-acento-contenido
+          .h5 Principales aspectos de las Buenas Prácticas Pecuarias - BPP
+          //-- Aqui viene la imagen
 
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Principales aspectos de las Buenas Prácticas Pecuarias (BPP)" :icono="require('@/assets/curso/t1-ic0.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            .h4 Principales aspectos de las Buenas Prácticas Pecuarias (BPP)
+            p De acuerdo con la FAO, consisten en “la aplicación del conocimiento disponible a la utilización sostenible de los recursos naturales básicos para la producción, en forma benévola, de productos agrícolas alimentarios y no alimentarios inocuos y saludables, a la vez que se procuran la viabilidad económica y la estabilidad social”.
+        
+          .col-md-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t1-m1.jpg', alt='Texto que describa la imagen')
+    
+      .py-4.py-md-5(titulo="Marco normativo de las Buenas Prácticas Pecuarias (BPP) –  Buenas Prácticas Ganaderas (BPG)" :icono="require('@/assets/curso/t1-ic2.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            .h4 Marco normativo de las Buenas Prácticas Pecuarias (BPP) –  Buenas Prácticas Ganaderas (BPG)
+            p 
+        
+          .col-md-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t1-m1.jpg', alt='Texto que describa la imagen')
 
-
-
-
-
+      .py-4.py-md-5(titulo="Protocolos para acceder a la certificación" :icono="require('@/assets/curso/t1-ic3.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            .h4 Protocolos para acceder a la certificación
+            p 
+        
+          .col-md-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t1-m1.jpg', alt='Texto que describa la imagen')
 
 
 
