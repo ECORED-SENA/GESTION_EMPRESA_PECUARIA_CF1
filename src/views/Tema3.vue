@@ -9,14 +9,14 @@
       h1 Planificación de la unidad productiva
 
     
-    #t_3_1.titulo-segundo.color-secundario
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  Instalaciones pecuarias
 
 
     Separador
     br
     br
-    #t_3_2.titulo-segundo.color-secundario
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2  Equipos empleados en explotaciones pecuarias
 
 

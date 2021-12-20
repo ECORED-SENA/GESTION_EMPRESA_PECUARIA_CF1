@@ -8,7 +8,7 @@
       h1 Sistemas productivos pecuarios
 
     
-    #t_1_1.titulo-segundo.color-secundario
+    #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Clasificación
     .row.mb-5.slideInLeft
       .col-lg-7
@@ -23,7 +23,7 @@
     Separador
     br
     br
-    #t_1_2.titulo-segundo.color-secundario
+    #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2  Características
     .row.mb-5
       .col-lg-1
@@ -81,7 +81,7 @@
     Separador
     br
     br
-    #t_1_3.titulo-segundo.color-secundario
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3  Componentes
     .row.mb-5.justify-content-center
       .col-lg-10.slideInLeft
@@ -110,7 +110,7 @@
     Separador
     br
     br
-    #t_1_4.titulo-segundo.color-secundario
+    #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4  Principales explotaciones pecuarias
     .row.mb-5
       .col-lg-1
@@ -121,7 +121,8 @@
     
     //-- Aqui viene un componente que no se ha definido
 
-    h3.titulo-tercero Aplicabilidad de los registros
+    .titulo-tercero 
+      h3  Aplicabilidad de los registros
     p.mb-5  Los registros son muy útiles para evaluar y monitorear la situación ambiental del agroecosistema, entre otras aplicaciones:
     .row.mb-5
       .col-lg-5
@@ -156,12 +157,13 @@
     Separador
     br
     br
-    #t_1_5.titulo-segundo.color-secundario
+    #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5  Parámetros productivos
     .row.mb-5
       .col-lg-7
         p.mb-4  Dependiendo de lo que se quiera medir al interior de la explotación pecuaria se pueden identificar y cuantificar cuantos parámetros productivos se consideren necesarios, para lo cual es necesario diseñar y diligenciar registros que permitan hacer un seguimiento detallado del comportamiento de estos importantes indicadores.
-        h3.titulo-tercero Parámetros productivos
+        .titulo-tercero 
+          h3  Parámetros productivos
         p.mb-5  Los parámetros productivos son variables cuantificables y observables que permiten analizar detalladamente el comportamiento de las unidades pecuarias en cualquiera de sus etapas, estos permiten evaluar los rendimientos y, además, facilitar la toma de decisiones administrativas teniendo en cuenta factores técnicos y productivos. Algunos de los parámetros productivos que se pueden medir al interior de las principales explotaciones pecuarias son los siguientes:
 
       .col-lg-5
@@ -224,7 +226,7 @@
     Separador
     br
     br
-    #t_1_6.titulo-segundo.color-secundario
+    #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6  Buenas prácticas pecuarias
 
     .row.mb-5.justify-content-center
@@ -238,7 +240,8 @@
               span.text-green  Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios;
               span &nbsp;a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
 
-    h3.titulo-tercero Buenas Prácticas Pecuarias - BPP
+    .titulo-tercero 
+      h3  Buenas Prácticas Pecuarias - BPP
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')

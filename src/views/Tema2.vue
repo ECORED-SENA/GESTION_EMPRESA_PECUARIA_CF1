@@ -26,7 +26,7 @@
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t2-i2.jpg' alt='imagen decorativa')     
 
-    .neg-margin-x.mb-5
+    .neg-margin-x.bg-curved.mb-5
       .row.justify-content-center
         .col-lg-5
           figure(data-aos='flip-left')
@@ -150,7 +150,7 @@
 
 
 
-    #t_2_1.titulo-segundo.color-secundario
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Salud y seguridad en el trabajo
     .row.mb-5
       .col-lg-1
@@ -167,7 +167,7 @@
     Separador
     br
     br
-    #t_2_2.titulo-segundo.color-secundario
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2  Manejo ambiental
 
     .row.mb-5
@@ -268,7 +268,8 @@
                 td.text-bold  Decreto 1299 de 2008 del Ministerio de Ambiente y Desarrollo Territorial 
                 td  Por el cual se reglamenta el departamento de gestión ambiental de las empresas a nivel industrial y se dictan otras disposiciones. 
     
-    h3.titulo-tercero Normatividad local
+    .titulo-tercero 
+      h3  Normatividad local
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
