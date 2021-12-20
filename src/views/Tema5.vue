@@ -77,6 +77,103 @@
     br
     #t_5_3.titulo-segundo.color-acento-contenido
       h2 5.3  Protocolos de desinfección
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/t5-i3.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4.shadow-box
+            p.mb-0 
+              span.text-green Una de las formas de asegurar el cumplimiento de las normas de bioseguridad al interior de la explotación pecuaria, es vigilando los protocolos de desinfección, tanto de equipos como de instalaciones.
+              | &nbsp;A continuación, se presentan los principales aspectos que se deben considerar para el diseño e implementación de protocolos de desinfección en las explotaciones pecuarias.
+    .row.mb-5
+      .col-lg-7
+        LineaTiempoD.color-acento-botones
+          div(numero="1" titulo="Desinfección de equipos") Cuando la limpieza de los equipos se realiza sin tener que remover ninguno de sus componentes se dice que este es un proceso CIP (<i>clean-in-place</i>). Por el contrario, cuando la limpieza del equipo requiere del desmonte de alguna de sus partes, se denomina un proceso COP (<i>clean-out-of-place</i>). Generalmente, en la limpieza y desinfección de los equipos se utilizan detergentes con baja producción de espuma.
+          div(numero="2" titulo="Desinfección de instalaciones") 
+            ul.lista-ul 
+              li
+                i.fas.fa-check
+                p.mb-0 la limpieza de los equipos se realiza sin tener que remover ninguno de sus componentes se dice que este es un proceso CIP (<i>clean-in-place</i>). Por el contrario, cuando la limpieza del equipo requiere del desmonte de alguna de sus partes, se denomina un proceso COP (<i>clean-out-of-place</i>). Generalmente, en la limpieza y desinfección de los equipos se utilizan detergentes con baja producción de espuma.
+              li
+                i.fas.fa-check
+                p.mb-0  Es importante llevar registros siempre de la realización de estas actividades en la explotación pecuaria, ya que permite la trazabilidad.
+              li
+                i.fas.fa-check
+                p.mb-0  Los productos utilizados para la limpieza deben corresponder a productos autorizados para ese fin. Deben estar claramente definidos y contar con sus respectivas fichas técnicas. También se deben definir las concentraciones, modos de empleo, equipos necesarios para su aplicación rotación de productos y cronograma de actividades de limpieza y desinfección.
+              li
+                i.fas.fa-check
+                p.mb-0  En los periodos de descanso, especialmente en aves, es común la realización de los procesos de limpieza y desinfección para eliminar la carga de patógenos que deja en el alojamiento la camada saliente. Es importante aplicar sustancias desinfectantes que reduzcan la población de patógenos y esperar un tiempo prudente para que actúen. Después de esto se procede a instalar la nueva camada.
+      .col-lg-5
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t5-i4.jpg' alt='imagen decorativa') 
+    
+    .titulo-tercero
+      h3  Pasos de los procesos de limpieza y desinfección
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .h4 Limpieza en seco
+              p.mb-3  Se utiliza una escoba o un cepillo para barrer todas las impurezas y agentes contaminantes presentes en las superficies de la unidad pecuaria.  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f1.svg')})`}")  
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .h4 Enjuague previo
+              p.mb-3  Con la ayuda de agua se quitan pequeñas partículas que no fueron retiradas en la fase de lavado en seco.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f2.svg')})`}")  
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .h4 Aplicación de detergente
+              p.mb-3  Con el detergente se desprenden la suciedad y las películas bacterianas y las mantienen en solución o suspensión. 
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")  
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .h4 Aplicación de desinfectante
+              p.mb-3  Una vez se retiren las partículas de suciedad y los restos de detergente se procede a desinfectar las superficies.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")        
+              
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .h4 Enjuague posterior
+              p.mb-3  Usando agua se retiran los restos de partículas contaminantes que aún permanezcan sobre la superficie. Es igualmente importante retirar los restos de detergente, ya que estos pueden disminuir la eficacia de los agentes desinfectantes que se usen posteriormente. 
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")     
+
+    .titulo-tercero
+      h3 Detergentes y desinfectantes
+    p.mb-5  Los detergentes facilitan la remoción de las partículas de suciedad, por lo que son recomendados en todos los procesos de limpieza y desinfección. 
+    TabsC.color-acento-contenido
+      .py-3.py-md-4(titulo="Detergentes")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p.mb-3  Los detergentes facilitan la remoción de las partículas de suciedad, por lo que son recomendados en todos los procesos de limpieza y desinfección. Sin embargo, los detergentes de uso general son poco recomendados en superficies donde se hace procesamiento, en donde se recomienda, en su lugar, el uso de detergentes alcalinos o clorados. 
+            p.mb-3  Los detergentes clorados se emplean en superficies que, en ocasiones, resultan difíciles de limpiar, pero no se recomiendan en superficies como el aluminio, debido a que son altamente corrosivos. Es importante mencionar que a pesar de que los detergentes son fundamentales en los procesos de limpieza, no son desinfectantes.   
+            p.mb-3  Dentro de la clasificación de los detergentes, existen los de uso general, los alcalino o clorados, los ácidos y los enzimáticos y la eficacia de cualquiera de ellos depende de los siguientes factores:        
+          .col-md-5
+            figure
+              img(src='@/assets/curso/t5-i5.jpg', alt='Texto que describa la imagen')
+          .clearfix.mb-5
+          .col-lg-12
+            figure
+              img(src='@/assets/curso/t5-g1.svg', alt='Texto que describa la imagen')            
+
+
 
 
 
@@ -87,24 +184,99 @@
     #t_5_4.titulo-segundo.color-acento-contenido
       h2 5.4  Manejo seguro de residuos
 
+    .row.mb-5
+      .col-lg-1
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+      .col-lg-11
+        p.mb-3  Para el almacenamiento de estas sustancias desinfectantes y de los detergentes, es importante tener en cuenta las siguientes recomendaciones, debido a que son sustancias peligrosas que pueden llegar a causar daños a la salud de las personas o los animales, si no se toman las debidas precauciones.
+    
+    .titulo-quinto.color-acento-contenido
+      h4 Recomendaciones para almacenamiento de sustancias peligrosas
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t5-i8.jpg' alt='imagen decorativa')      
+      .col-lg-4
+        SlyderF(columnas="col-12")
+          .tarjeta.yellow-custom-card.p-4
+            .row.justify-content-center.mb-3
+              .col-6
+                img.nW.centered(src='@/assets/curso/t5-c1.svg' alt='AvatarTop')
+            p.text-center Almacenamiento bajo llave en un lugar destinado únicamente para este tipo de sustancias.         
+
+          .tarjeta.yellow-custom-card.p-4
+            .row.justify-content-center.mb-3
+              .col-6
+                img.nW.centered(src='@/assets/curso/t5-c2.svg' alt='AvatarTop')
+            p.text-center Rotulado de los recipientes en los que se guardan los desinfectantes y los detergentes. 
+
+          .tarjeta.yellow-custom-card.p-4
+            .row.justify-content-center.mb-3
+              .col-6
+                img.nW.centered(src='@/assets/curso/t5-c3.svg' alt='AvatarTop')
+            p.text-center Señalización de las áreas en las que se almacenan este tipo de productos.  
+
+          .tarjeta.yellow-custom-card.p-4
+            .row.justify-content-center.mb-3
+              .col-6
+                img.nW.centered(src='@/assets/curso/t5-c4.svg' alt='AvatarTop')
+            p.text-center Conservar las hojas de seguridad de estos elementos para saber cómo actuar en caso de emergencia. 
 
 
+          .tarjeta.yellow-custom-card.p-4
+            .row.justify-content-center.mb-3
+              .col-6
+                img.nW.centered(src='@/assets/curso/t5-c5.svg' alt='AvatarTop')
+            p.text-center Mantener la bodega en buenas condiciones de ventilación, humedad e iluminación.
+
+    p.mb-5  Como en todas las actividades humanas, las explotaciones pecuarias también son generadoras de residuos de toda índole, y cuando no reciben un manejo apropiado terminan convirtiéndose en foco de contaminación y de proliferación de especies indeseadas.
+    .tarjeta.bg-sliders.p-5.mb-5.shadow-box 
+      .row.justify-content-center
+        .col-lg-1
+          figure(data-aos='flip-left')
+            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')           
+        .col-lg-6
+          .h4 Manejo seguro de residuos
+          p.mb-3  Para lograr una eficiente gestión de los residuos sólidos, es necesario, en primer lugar, diferenciarlos unos de otros, de acuerdo con los parámetros de clasificación existentes. En segunda instancia, es imperativo definir el sistema o los sistemas a emplear para hacer una gestión integral de los residuos, de manera que los impactos que estos puedan generar no trasciendan de la unidad productiva.
+
+        .col-lg-5
+          figure(data-aos='flip-left')
+            img.nW.centered(src='@/assets/curso/t5-i9.png' alt='imagen decorativa')      
+
+    .titulo-tercero
+      h3  Clasificación de residuos
+    p.mb-5  Los criterios para la clasificación de los residuos sólidos son variados, pero los más utilizados son los siguientes:
+
+    .titulo-quinto.color-acento-contenido
+      h4 Clasificación de los residuos sólidos
+
+    
+    .titulo-tercero
+      h3  Disposición final
+    .row.mb-5
+      .col-lg-7
+        p.mb-3  La actividad productiva pecuaria, al igual que otras explotaciones, genera una gran cantidad de residuos, la mayoría de ellos orgánicos, los cuales deben manejarse adecuadamente para evitar la proliferación de patógenos, la contaminación de suelos y aguas y la generación de olores ofensivos. La disposición final de los residuos se realiza de acuerdo con el tipo de material que se genere, conforme a la clasificación establecida en la explotación pecuaria. 
+        p.mb-3  Respecto a los métodos para la disposición final de estos residuos se tiene lo siguiente:
+      .col-lg-5 
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t5-i10.jpg' alt='imagen decorativa')      
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .row.mb-5
+      .col-lg-5
+        figure(data-aos='slide-left')
+          img(src='@/assets/curso/t5-i11.jpg' alt='imagen decorativa')              
+      .col-lg-7
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .div(titulo="Residuos reciclables")
+            p.mb-3  Estos se depositan en recipientes ubicados dentro de la explotación pecuaria los cuales deben estar debidamente rotulados y dispuestos en un área específica. El sitio de almacenamiento de los residuos debe estar bien ventilado, tener fácil acceso, estar construido con materiales que permitan la limpieza de sus superficies y que disponga de los medios para evitar la entrada de vectores (Decreto 1140 de 2003).
+          .div(titulo="Residuos no reciclables")
+            p.mb-3   Estos materiales también se almacenan en contenedores debidamente rotulados, los cuales deben indicar claramente qué tipo de materiales se pueden depositar allí. Estos materiales se almacenarán en un lugar destinado para tal fin, el cual debe permitir su fácil limpieza, tener buen acceso y restringir el acceso de vectores.
+          .div(titulo="Residuos orgánicos")
+            p.mb-3  Este tipo de residuos pueden recibir un manejo especial al interior de la explotación pecuaria, pues son totalmente biodegradables y pueden transformarse en abono fácilmente. La gestión de estos residuos comienza con la separación en la fuente. Los residuos orgánicos se disponen en áreas de compostaje o lombricultivo en las cuales mediante procesos enteramente naturales se degradan. Es importante capacitar al personal sobre la importancia de separar los residuos y hacer una correcta disposición.  
+          .div(titulo="Residuos especiales")
+            p.mb-3 Este tipo de residuos requieren de un manejo distinto debido a que, por su naturaleza y los componentes que los integran, resultan peligrosos para los animales y para el personal que labora en la unidad productiva. Los envases de plaguicidas deben someterse en primera instancia a un proceso conocido como triple lavado, el cual consiste en enjuagar con agua tres veces el recipiente antes de perforarlo y almacenarlo. En relación con los residuos de vacunas se inactivan sumergiéndolos en soluciones desinfectantes por 24 horas. Por su parte las agujas empleadas para la inyección de medicamentos se disponen en “guardianes”, para su posterior disposición.
 
 
 
