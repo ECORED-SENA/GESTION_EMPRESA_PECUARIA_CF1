@@ -250,6 +250,42 @@
 
     .titulo-quinto.color-acento-contenido
       h4 Clasificación de los residuos sólidos
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g1.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              .h4 Residuos reciclables
+              p En esta categoría se ubican materiales como cartón, papel, plástico, PVC, polietileno, vidrio y metales. 
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g2.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              .h4 Residuos no reciclables
+              p Papel o cartón contaminados, restos de comida, bombillas. 
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g3.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              .h4 Residuos orgánicos
+              p Excretas, plumas, huevos dañados, restos vegetales.
+              
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g4.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              .h4 Residuos especiales
+              p Empaques de productos agroquímicos, residuos de medicamentos, restos anatomopatológicos, empaques de sustancias corrosivas.
 
     
     .titulo-tercero
