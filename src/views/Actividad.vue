@@ -10,12 +10,14 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Consolidando conceptos
+          h2 Consolidación de conceptos
         p.mb-4 Identificar los aspectos generales para el control del funcionamiento de la unidad pecuaria.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-start.align-items-center            
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple    
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/a3/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
@@ -29,7 +31,9 @@
           h2 Funcionamiento de la unidad pecuaria
         p.mb-4 Para el adecuado funcionamiento de la unidad pecuaria es necesario conocer los conceptos básicos.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-start.align-items-center            
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios        
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/a2/story.html')" target="_blank")
                 span Realizar
@@ -43,11 +47,13 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Manejo ambiental
-        p.mb-4 Reconocer la gestión que se debe hacer pata el Manejo ambiental de la unidad pecuaria.
+        p.mb-4 Reconocer la gestión que se debe hacer para el Manejo ambiental de la unidad pecuaria.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-start.align-items-center            
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Arrastrar y soltar       
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/a3/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
