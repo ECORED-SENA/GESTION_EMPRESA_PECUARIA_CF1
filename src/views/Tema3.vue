@@ -242,8 +242,151 @@
       .col-lg-11(data-aos='slide-left')
         p.mb-0  Cada una de las especies pecuarias tiene unos requerimientos mínimos de espacio en los cuales puede desarrollarse normalmente y satisfacer sus necesidades básicas. Con base en este requerimiento, por animal, es posible estimar el área a construir para alojar a los animales en buenas condiciones, de acuerdo con lo recomendado para cumplir con las Buenas Prácticas Pecuarias - BPP.
     
-    //-- Aqui viene el tab
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones.p-5(titulo="Ganado bovino - bufalino")
+        h4 Ganado bovino - bufalino
+        .tabla-a.color-acento-contenido.mb-4
+          table
+            thead
+              tr
+                th 
+                th Área de descanso por animal adulto
+                th Área de alimentación por animal adulto
+                th Ancho de plaza comedero por animal adulto
+            tbody
+              tr
+                td.text-bold Ganado bovino – bufalino
+                td  5 m²
+                td  2,5 m² 
+                td  0,8 m 
+        .row
+          .col-lg-4
+            figure(data-aos='flip-left')
+              img(src='@/assets/curso/t3-d1.png' alt='imagen decorativa')               
+          .col-lg-8
+            p El área de la pradera se estima mediante la medición de la cantidad de forraje disponible por metro cuadrado de potrero. Para esto es importante saber que un animal adulto, en el caso de bovinos, puede consumir hasta el 10 % de su peso en alimento al día. Es decir que si una vaca pesa 350 kilogramos, en un día consumirá 35 kilogramos de forraje. Si por cada metro cuadrado se tienen, por ejemplo, 2,8 kilogramos de forraje, para saber qué área de pastoreo requiere el animal basta con dividir los kilogramos que debe consumir el animal entre los kilogramos que produce un metro cuadrado. 
 
+      .tarjeta.color-acento-botones.p-5(titulo="Equinos")
+        h4 Áreas mínimas para equinos
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th 
+                th Área pesebrera por adulto
+                th Ancho de plaza adulto
+            tbody
+              tr
+                td.text-bold  Caballos – mulares (pesado)
+                td  11,5 m²
+                td  0,9 m - 1 m
+              tr
+                td.text-bold  Asnos (semipesado)
+                td  8,5 m² - 10 m²
+                td  0,9 m
+        p.mb-0  El ancho de plaza indica el espacio que ocupa un equino en el comedero teniendo en cuenta su longitud transversal. 
+        
+      .tarjeta.color-acento-botones.p-5(titulo="Porcinos")
+        h4 Áreas mínimas para porcinos
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th 
+                th Área porqueriza por animal
+            tbody
+              tr
+                td.text-bold  Lechones
+                td  0,25 m²
+              tr
+                td.text-bold  Adultos jóvenes
+                td  0,5 m²
+              tr
+                td.text-bold  Adultos
+                td  1 m²
+              tr
+                td.text-bold  Jaula para cerdas de cría
+                td  0,9 m² (ancho 0,45 m x largo 2,20 m)
+
+        p.mb-0  En las explotaciones semitecnificadas, el espacio para la cerda de cría con sus lechones puede ser de 7 m², donde el 60 %, aproximadamente, del área es para la cerda y el restante 40 % es para las crías. 
+
+      .tarjeta.color-acento-botones.p-5(titulo="Caprinos")
+        h4 Áreas mínimas para caprinos
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th 
+                th Área cubierta
+                th Área descubierta             
+            tbody
+              tr
+                td.text-bold  Recién nacidos (0 a 3 meses)
+                td  1 m²
+                td  1 m²
+              tr
+                td.text-bold  Destetos (4 a 8 meses)
+                td  1,5 m²
+                td  2 m²
+              tr
+                td.text-bold  Adultos
+                td  2 m²
+                td  2,5 m²
+              tr
+                td.text-bold  Gestantes
+                td  2,5 m²
+                td  2,5 m²  
+              tr
+                td.text-bold  Machos
+                td  3 m²
+                td  3 m²
+      .tarjeta.color-acento-botones.p-5(titulo="Ovinos")
+        h4 Áreas mínimas para ovinos
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th Categoría
+                th Área
+            tbody
+              tr
+                td.text-bold  Ovejas
+                td  1,5 – 2 m²
+              tr
+                td.text-bold  Crías (3 a 4 animales)
+                td  1 m²
+              tr
+                td.text-bold  Corderas (2 a 3 animales)
+                td  1 m²
+              tr
+                td.text-bold  Machos
+                td  4 – 6 m²               
+
+      .tarjeta.color-acento-botones.p-5(titulo="Especies menores")
+        h4 Áreas mínimas para especies menores
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t3-e1.svg' alt='imagen decorativa')     
+
+      .tarjeta.color-acento-botones.p-5(titulo="Peces")
+        h4 Peces
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th Especie
+                th Densidad final. Aproximado de peces por m²
+            tbody
+              tr
+                td.text-bold  Cachama blanca
+                td  4
+              tr
+                td.text-bold  Mojarra roja
+                td  15
+              tr
+                td.text-bold  Tilapia
+                td  4 - 15
+
+        p.mb-3  La densidad de animales por m² depende en buena medida del caudal de agua del estanque. Para caudales de entre 1 y 3 litros por segundo las densidades pueden ser de 4 peces por m². En caudales de 40 a 60 litros por segundo, es posible tener densidades de hasta 20 peces por m². 
 
     .titulo-tercero
       h3  Dimensiones
