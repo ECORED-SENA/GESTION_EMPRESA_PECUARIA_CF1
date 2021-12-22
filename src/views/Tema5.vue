@@ -23,7 +23,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
       .col-lg-11
         p.mb-3  Para la utilización de los equipos es importante seguir las recomendaciones del fabricante y asegurarse de cumplir todas y cada una de ellas, pues es una de las formas de asegurar su durabilidad y buen uso. Estas recomendaciones están consignadas en los manuales de operación, por lo que es necesario tenerlos siempre disponibles. Igualmente, para evitar daños es importante establecer protocolos para el uso de estos elementos y realizar jornadas de inducción y de capacitación al personal para su operación.
     
@@ -89,7 +89,7 @@
               | &nbsp;A continuación, se presentan los principales aspectos que se deben considerar para el diseño e implementación de protocolos de desinfección en las explotaciones pecuarias.
     .row.mb-5
       .col-lg-7
-        LineaTiempoD.color-acento-botones
+        LineaTiempoD.color-primario
           div(numero="1" titulo="Desinfección de equipos") Cuando la limpieza de los equipos se realiza sin tener que remover ninguno de sus componentes se dice que este es un proceso CIP (<i>clean-in-place</i>). Por el contrario, cuando la limpieza del equipo requiere del desmonte de alguna de sus partes, se denomina un proceso COP (<i>clean-out-of-place</i>). Generalmente, en la limpieza y desinfección de los equipos se utilizan detergentes con baja producción de espuma.
           div(numero="2" titulo="Desinfección de instalaciones") 
             ul.lista-ul 
@@ -112,7 +112,7 @@
     .titulo-tercero
       h3  Pasos de los procesos de limpieza y desinfección
     .row.mb-5.justify-content-center.green-b
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -120,7 +120,7 @@
               .h4 Limpieza en seco
               p.mb-3  Se utiliza una escoba o un cepillo para barrer todas las impurezas y agentes contaminantes presentes en las superficies de la unidad pecuaria.  
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f1.svg')})`}")  
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -128,7 +128,7 @@
               .h4 Enjuague previo
               p.mb-3  Con la ayuda de agua se quitan pequeñas partículas que no fueron retiradas en la fase de lavado en seco.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f2.svg')})`}")  
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -137,7 +137,7 @@
               p.mb-3  Con el detergente se desprenden la suciedad y las películas bacterianas y las mantienen en solución o suspensión. 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")  
     .row.mb-5.justify-content-center.green-b
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -148,7 +148,7 @@
 
 
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -205,7 +205,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
       .col-lg-11
         p.mb-3  Para el almacenamiento de estas sustancias desinfectantes y de los detergentes, es importante tener en cuenta las siguientes recomendaciones, debido a que son sustancias peligrosas que pueden llegar a causar daños a la salud de las personas o los animales, si no se toman las debidas precauciones.
     
@@ -253,7 +253,7 @@
       .row.justify-content-center
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')           
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')           
         .col-lg-6
           .h4 Manejo seguro de residuos
           p.mb-3  Para lograr una eficiente gestión de los residuos sólidos, es necesario, en primer lugar, diferenciarlos unos de otros, de acuerdo con los parámetros de clasificación existentes. En segunda instancia, es imperativo definir el sistema o los sistemas a emplear para hacer una gestión integral de los residuos, de manera que los impactos que estos puedan generar no trasciendan de la unidad productiva.
@@ -268,9 +268,9 @@
 
     .titulo-quinto.color-acento-contenido
       h4 Clasificación de los residuos sólidos
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+    .row.mb-5.justify-content-center.color-cards
+      .col-8.col-sm-4.col-xl-3.mb-4.mb-xl-0.mh-300
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g1.svg')})`}")
@@ -278,8 +278,8 @@
               .h4 Residuos reciclables
               p En esta categoría se ubican materiales como cartón, papel, plástico, PVC, polietileno, vidrio y metales. 
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-8.col-sm-6.col-xl-3.mb-4.mb-xl-0.mh-300
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g2.svg')})`}")
@@ -287,8 +287,8 @@
               .h4 Residuos no reciclables
               p Papel o cartón contaminados, restos de comida, bombillas. 
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-8.col-sm-6.col-xl-3.mb-4.mb-xl-0.mh-300
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g3.svg')})`}")
@@ -296,8 +296,8 @@
               .h4 Residuos orgánicos
               p Excretas, plumas, huevos dañados, restos vegetales.
               
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-8.col-sm-6.col-xl-3.mb-4.mb-xl-0.mh-300
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g4.svg')})`}")

@@ -30,6 +30,8 @@
   color: #000
 .color-cards .tarjeta.color-acento-contenido
   background-color: #F2E2A0
+.tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+  background-color: #F2E6B3
 .color-cards .tarjeta-slide
   border: 4px solid #FFB500
 .color-b1
@@ -210,11 +212,13 @@ figcaption
 .slyder-a__tipo-a .slyder-a__btn--sigt
   right: -3.5rem 
   background-color: #3C6D9D
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url('../assets/curso/arrowW.svg')
 .slyder-a__bullets
   /*bottom: -6rem*/
 .slyder-a__bullets__item--active
-  background-color: #6B2C80!important
-  border: 1px solid #6B2C80!important
+  background-color: #3C6D9D!important
+  border: 1px solid #3C6D9D!important
 .slyder-a__bullets__item
   background-color: #AFAFAF
   border: 1px solid #AFAFAF
@@ -394,8 +398,15 @@ tbody
   border-left: solid 50px #6E3DC6
 .cajon.color-primario
   background-color: #EFDDF2
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFB500
+  color: #000
 .linea-tiempo-d__item--selected .tarjeta--gris
-  background-color: #DCEEFC!important
+  background-color: #FAF4DC
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #F2E6B3
+.tarjeta-flip.color-primario .tarjeta-flip__contenido *
+  color: #000
 i.fa-angle-double-right
   color: #75BAF1
 i.fa-check
@@ -653,3 +664,5 @@ i.fa-check
     position: relative
   .customtext-size
     font-size: small
+  .tabla-a table
+    min-width: 700px

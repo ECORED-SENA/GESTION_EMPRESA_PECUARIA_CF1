@@ -155,7 +155,7 @@
       .row.mb-5
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
         .col-lg-11(data-aos='slide-left')
           p.mb-0  Principales aspectos que se deben tener en cuenta respecto a la gestión integral de la salud y la seguridad en el trabajo. Parte del trabajo relacionado con la salud y la seguridad en el trabajo se relaciona con la identificación de los riesgos que conlleva cada una de las actividades realizadas. Es así como se definen diferentes tipos de riesgos, dependiendo de sus causas.
       .row.justify-content-center
@@ -355,12 +355,12 @@
       .row.mb-5
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
         .col-lg-11(data-aos='slide-left')
           p.mb-0  Además del marco normativo expuesto anteriormente, para el desarrollo de las explotaciones pecuarias se deben tener en cuenta los aspectos relacionados con la normatividad local, puesto que el desarrollo de cualquier actividad productiva debe estar acorde con lo establecido por las autoridades de planeación. Entre los aspectos que se deben tener en cuenta en este sentido se encuentran los siguientes:
 
       .row.mb-5.justify-content-center.color-cards
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-8.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -369,7 +369,7 @@
                 p Este tipo de explotaciones, dependiendo de la especie animal, se puede hacer un manejo enfocado en los individuos (como en el caso de los bovinos o los equinos) o en las poblaciones (como ocurre con las aves, conejos o cuyes).
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f1.svg')})`}")  
 
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-8.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -378,7 +378,7 @@
                 p Dependiendo de las condiciones ambientales o de la disponibilidad de alimento, algunas de las explotaciones pecuarias pueden trasladarse de un lugar a otro. Esto se da sobre todo en la producción ganadera, donde es común la migración de animales según las épocas de abundancia o escasez de pasturas.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f2.svg')})`}")  
 
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-8.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor

@@ -28,12 +28,12 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
       .col-lg-11(data-aos='slide-left')
         p.mb-0  Para conseguir unidades pecuarias organizadas conforme a los parámetros técnicos es necesario implementar procesos acordes a la normatividad aplicable, definiendo los recursos disponibles y conociendo los procesos que conlleva la implementación de sistemas en diversos entornos rurales para controlar el funcionamiento de la unidad pecuaria, a continuación, se verán sus características.
 
-    .row.mb-5.justify-content-center.green-b
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+    .row.justify-content-center.green-b
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -42,7 +42,7 @@
               p Es una actividad que se adapta fácilmente a una variedad de condiciones que pueden ser de tipo agroecológico, económico, sociocultural y tecnológico, entre otras.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c1.jpg')})`}")  
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -51,7 +51,7 @@
               p En la actividad pecuaria es común la obtención de subproductos los cuales son empleados tanto al interior de la unidad productiva como fuera de ella.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c2.jpg')})`}")  
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -61,7 +61,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c3.jpg')})`}")
     .neg-margin-x.bg-curved
       .row.mb-5.justify-content-center.green-b
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -70,7 +70,7 @@
                 p Dependiendo de las condiciones ambientales o de la disponibilidad de alimento, algunas de las explotaciones pecuarias pueden trasladarse de un lugar a otro. Esto se da sobre todo en la producción ganadera, donde es común la migración de animales según las épocas de abundancia o escasez de pasturas.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c4.jpg')})`}")  
 
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -144,7 +144,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
       .col-lg-11(data-aos='slide-left')
         p.mb-0  Las explotaciones pecuarias son tan diversas como lo son las especies animales, pues son múltiples las iniciativas de crianza y beneficio que se han desarrollado en diferentes latitudes. Incluso algunas de ellas pueden resultar exóticas dependiendo del contexto en el que se desarrollen. No obstante, de acuerdo con su importancia económica y el volumen de la producción, en el ámbito nacional las principales explotaciones pecuarias podrían agruparse en las siguientes categorías:
     
@@ -609,7 +609,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='icono decorativa')    
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='icono decorativa')    
       .col-lg-8
         p.mb-0  Según el Instituto Colombiano Agropecuario, estas se relacionan con las prácticas que se deben llevar a cabo en los sistemas pecuarios para disminuir los riesgos físicos, químicos y biológicos que puedan llegar a afectar la salud de los consumidores.
       .col-lg-3

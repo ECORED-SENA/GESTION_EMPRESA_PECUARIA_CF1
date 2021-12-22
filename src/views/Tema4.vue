@@ -39,7 +39,7 @@
       .row
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
         .col-lg-6
           .h4 Recursos técnicos
           p.mb-0  Estos hacen referencia a los medios físicos o materiales de los que dispone la empresa pecuaria para el desarrollo de su actividad productiva. Estos se pueden dividir en tangibles, cuando se pueden encontrar en una forma física, o intangibles cuando están representados en tecnología o cualquier otro bien inmaterial.   
@@ -67,7 +67,7 @@
         .row
           .col-lg-1
             figure(data-aos='flip-left')
-              img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+              img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
           .col-lg-6
             .h4 Recurso humano
             p.mb-3  Es tal vez el recurso más importante con el que cuenta la unidad pecuaria, puesto que todas y cada una de las labores que se desarrollan al interior de la unidad productiva requieren de la intervención del equipo de trabajo. En este punto es importante considerar las labores que se realizan en la unidad productiva y estimar la demanda de mano de obra con base en ellas (tiempos y movimientos en la empresa). 
@@ -78,7 +78,7 @@
               img.nW.centered(src='@/assets/curso/t4-i5.png' alt='imagen decorativa') 
 
       .row.mb-5.justify-content-center.color-cards
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -100,7 +100,7 @@
                                   
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t4-f1.svg')})`}")  
 
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -118,7 +118,7 @@
                     p.mb-0  Eficiencia.
                       
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t4-f2.svg')})`}")  
-        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
@@ -154,7 +154,7 @@
       .row
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
         .col-lg-6
           p.mb-3  Otro de los recursos necesarios para adelantar la actividad productiva de manera eficiente, es la identificación de los recursos ambientales, en términos de materiales aprovechables, pero también de servicios ecosistémicos. Para caracterizar la oferta de servicios ambientales, es necesario identificar las condiciones agroecológicas de la zona.
         .col-lg-5
@@ -183,7 +183,7 @@
               p El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas. 
     
     p.mb-5  De acuerdo con sus características, los inventarios en una explotación pecuaria pueden clasificarse de la siguiente manera:
-    
+
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.tarjeta--gris.p-4
@@ -300,7 +300,7 @@
       .row.mb-5
         .col-lg-1
           figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+            img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
         .col-lg-11
           p.mb-3  Si bien en la explotación pecuaria se cuenta con un cronograma de actividades que indica los tiempos en los cuales se desarrollarán las actividades, es importante hacer una buena gestión de contingencias. Una contingencia es una situación fuera de lo común, que puede presentarse o no, con la capacidad de alterar el normal funcionamiento de la unidad pecuaria. Las contingencias no son evitables, pero sus impactos sí se pueden minimizar.
 

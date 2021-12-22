@@ -240,7 +240,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
       .col-lg-11(data-aos='slide-left')
         p.mb-0  Cada una de las especies pecuarias tiene unos requerimientos mínimos de espacio en los cuales puede desarrollarse normalmente y satisfacer sus necesidades básicas. Con base en este requerimiento, por animal, es posible estimar el área a construir para alojar a los animales en buenas condiciones, de acuerdo con lo recomendado para cumplir con las Buenas Prácticas Pecuarias - BPP.
     
@@ -430,7 +430,7 @@
     .row.mb-5
       .col-lg-1
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
+          img.nW(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
       .col-lg-11(data-aos='slide-left')
         p.mb-0  En este caso se obtiene un corral de 50 metros cuadrados efectivos con dos comederos de 4 metros de largo cada uno y un bebedero. Este tipo de corrales, para alojamiento temporal, generalmente son cubiertos por lo que con esta estimación también es posible identificar la necesidad de materiales para esta estructura. 
 
@@ -774,7 +774,7 @@
         p.mb-3 Para elegir los materiales con los que se construirán las instalaciones en la unidad pecuaria, es importante determinar si es una explotación intensiva o semiintensiva, el número de animales a alojar, la disponibilidad de recursos y las condiciones agroecológicas de la zona. Debido a que las instalaciones deben ofrecer seguridad y protección, tanto a los animales como al personal que allí labora, es importante elegir materiales resistentes frente a las condiciones del entorno y que tengan alta durabilidad. En términos generales, los materiales más empleados para la construcción de instalaciones pecuarias son los siguientes:
       .col-lg-5
         figure
-          img(src='@/assets/curso/t3-m6.png', alt='imagen decorativa')
+          img(src='@/assets/curso/t3-i13.jpg', alt='imagen decorativa')
 
     .titulo-quinto.color-acento-contenido
       h4 Principales materiales de construcción empleados en instalaciones pecuarias
