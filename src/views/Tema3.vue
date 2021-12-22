@@ -155,7 +155,83 @@
         figure
           img.nW.centered(src='@/assets/curso/t3-i3.png', alt='imagen decorativa')
 
-    //-- Aqui viene la liena de tiempo
+    .tarjeta.tarjeta--yellow.p-4.mb-5.shadow-box
+      LineaTiempoC.color-acento-contenido(text-small)
+        .row.p-4(titulo="Corrales")
+          .col-lg-12
+            .h4 Corrales
+          .col-md-6.mb-4.mb-md-0
+            p.mb-3 Permiten el alojamiento de los animales durante el desarrollo de tareas cotidianas como vacunación, palpación, desparasitación y marcado. Cuentan con una zona denominada apretadero, la cual facilita estas labores. Tienen una zona techada con comederos y bebederos por lo que funcionan como caseta de ordeño. Ejemplo en la siguiente imagen.
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b1.png', alt='imagen decorativa')        
+          .col-md-6
+            p.mb-3 Este diseño de corral es adecuado únicamente para el manejo animal, pues solo está dotado de apretadero y embarcadero. Carece de cubierta, por lo que evidentemente está diseñado para que los animales no permanezcan allí durante mucho tiempo. Ejemplo en la siguiente imagen.
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b2.png', alt='imagen decorativa')     
+        .row.p-4(titulo="Establos")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Establos
+            p.mb-3 El establo debe proporcionar protección al animal frente a la intemperie y se constituye en un espacio de refugio en donde además se puede alimentar y beber. Deben tener pisos blandos, generalmente de tierra, para permitir el drenaje de la orina.
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b3.png', alt='imagen decorativa')     
+        .row.p-4(titulo="Pesebreras")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Pesebreras
+            p.mb-3 Estas permiten un alojamiento adecuado a los animales en momentos de especial cuidado. Además de la cubierta cuentan con un enceramiento que los protege de los elementos. En su interior se cuenta con implementos para el cuidado de los animales, agua y alimento. 
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b4.png', alt='imagen decorativa')    
+
+        .row.p-4(titulo="Porquerizas")
+          .col-lg-12
+            .h4 Porquerizas
+          .col-md-6.mb-4.mb-md-0
+            p.mb-3 El uso de determinados diseños de porquerizas depende del tipo de explotación, principalmente. En el caso de pequeñas explotaciones se pueden emplear modelos en los cuales se tiene un área para el cerdo reproductor, jaulas de maternidad y una zona de levante o engorde, tal como se presenta en la imagen. 
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b5.png', alt='imagen decorativa')        
+          .col-md-6
+            p.mb-3 En explotaciones intensivas, especialmente las que se dedican a la producción de carne, las instalaciones maximizan el uso de las áreas, por lo que los animales disponen de menos espacio para movilizarse.
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b6.png', alt='imagen decorativa')     
+
+        .row.p-4(titulo="Jaulas")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Jaulas
+            p.mb-3 En la producción de especies menores bajo sistemas intensivos, principalmente de carne, se emplean jaulas como la de la imagen. En ellas se restringe la movilidad del animal y se le proporciona agua y alimento.
+            p.mb-3  En sistemas extensivos se emplean jaulas itinerantes, las cuales se pueden desplazar de un lugar a otro dependiendo de la disponibilidad de alimento, permitiendo al animal la posibilidad de pastorear.
+
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b7.png', alt='imagen decorativa')    
+
+        .row.p-4(titulo="Apriscos")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Apriscos
+            p.mb-3 Estos se construyen elevados del suelo, aproximadamente a 80 cm, en un sistema que se denomina tarima. Con este sistema se evita que los animales entren en contacto con las excretas, además que facilita el aseo de las instalaciones. Igualmente, el sitio de ordeño también se debe ubicar sobre una tarima, lo cual facilita la labor del operario.
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b8.png', alt='imagen decorativa')    
+
+        .row.p-4(titulo="Galpones")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Galpones para aves
+            p.mb-3 La producción de aves de corral se puede realizar de forma extensiva, semi-intensiva e intensiva. Dependiendo del tipo de explotación así mismo se debe escoger el diseño del galpón. En la fotografía se observa un montaje semi-intensivo el cual tiene unos requerimientos mínimos, como son el encerramiento y la cubierta. 
+            p.mb-3  Por otro lado, en las explotaciones intensivas la demanda de insumos, recursos, equipos y mano de obra es mucho mayor, pues por unidad de área se tiene una mayor cantidad de animales, los cuales demandan gran cantidad de alimentos, medicinas y agua, entre otras cosas. Generalmente este tipo de estructuras utilizan una cubierta a dos aguas, con cortinas laterales para el manejo de la temperatura, y un piso cubierto con un material blando, principalmente, cascarilla de arroz.
+
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b9.png', alt='imagen decorativa')    
+
+        .row.p-4(titulo="Estanques")
+          .col-md-6.mb-4.mb-md-0
+            .h4 Estanques para peces
+            p.mb-3 En la actualidad existen múltiples diseños los cuales se acomodan a las necesidades de los productores y la disponibilidad de recursos. Estos pueden ser cavados directamente en el suelo o construidos con materiales que permitan almacenar el agua necesaria para la explotación, como es el caso de los estanques de geomembrana que se aprecian en la fotografía.
+
+          .col-md-6
+            figure.slideInLeft
+              img.nW.centered(src='@/assets/curso/t3-b10.png', alt='imagen decorativa')  
+
 
     .titulo-tercero
       h3  Áreas mínimas
@@ -238,9 +314,9 @@
   
 
             .col-lg-6
-              .wrap(
-                :style="{'background-image': `url(${require('@/assets/curso/t3-i6.jpg')})`}"
-              )   
+              .wrap
+
+
     p.mb-5  Para estimar la densidad de animales por unidad de área, es importante conocer las diferentes unidades de área, longitud y volumen empleadas en la agricultura, con el fin de hacer las respectivas conversiones. A continuación, se presentan las más empleadas.
     .titulo-quinto.color-acento-contenido
       h4  Principales unidades empleadas en actividades pecuarias

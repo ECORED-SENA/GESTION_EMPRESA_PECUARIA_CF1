@@ -669,13 +669,17 @@
 
 
 
+    Muestras
   
 </template>
 
 <script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
   data: () => ({
     // variables de vue
   }),
