@@ -111,7 +111,7 @@
     
     .titulo-tercero
       h3  Pasos de los procesos de limpieza y desinfección
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center.green-b
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -136,7 +136,7 @@
               .h4 Aplicación de detergente
               p.mb-3  Con el detergente se desprenden la suciedad y las películas bacterianas y las mantienen en solución o suspensión. 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")  
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center.green-b
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")

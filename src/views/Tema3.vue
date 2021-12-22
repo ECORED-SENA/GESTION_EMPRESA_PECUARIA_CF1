@@ -950,7 +950,7 @@
           
     .row.mb-5.justify-content-center
       .col-lg-10
-        .cajon.color-secundario.p-4
+        .cajon.tarjeta--gris.p-4
           p.mb-0  En algunas instalaciones pecuarias hay una tendencia creciente hacia el uso de materiales reutilizados, como canecas, contenedores o estibas, entre otros, los cuales son una alternativa interesante desde el punto de vista económico y ambiental de la explotación. La elección del tipo de materiales a emplear se da a criterio del productor, dependiendo de sus condiciones y las exigencias de la explotación que se planee desarrollar.
 
 
