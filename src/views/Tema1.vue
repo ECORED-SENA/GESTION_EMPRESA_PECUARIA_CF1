@@ -58,88 +58,87 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               .h3 Individuos y poblaciones
               p Este tipo de explotaciones, dependiendo de la especie animal, se puede hacer un manejo enfocado en los individuos (en el caso de los bovinos o los equinos) o en las poblaciones (como ocurre con las aves, conejos o cuyes). 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c3.jpg')})`}")  
-    .row.mb-5.justify-content-center.green-b
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .h3 Movilidad
-              p Dependiendo de las condiciones ambientales o de la disponibilidad de alimento, algunas de las explotaciones pecuarias pueden trasladarse de un lugar a otro. Esto se da sobre todo en la producción ganadera, donde es común la migración de animales según las épocas de abundancia o escasez de pasturas.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c4.jpg')})`}")  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c3.jpg')})`}")
+    .neg-margin-x.bg-curved
+      .row.mb-5.justify-content-center.green-b
+        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                .h3 Movilidad
+                p Dependiendo de las condiciones ambientales o de la disponibilidad de alimento, algunas de las explotaciones pecuarias pueden trasladarse de un lugar a otro. Esto se da sobre todo en la producción ganadera, donde es común la migración de animales según las épocas de abundancia o escasez de pasturas.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c4.jpg')})`}")  
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              .h3 Alojamiento e infraestructura asociada
-              p Siempre que se desarrolla un sistema productivo pecuario es necesario asegurar unas instalaciones mínimas para el alojamiento de los animales y una infraestructura complementaria que facilite las labores que demande su manejo.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c5.jpg')})`}") 
+        .col-sm-6.col-xl-4.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                .h3 Alojamiento e infraestructura asociada
+                p Siempre que se desarrolla un sistema productivo pecuario es necesario asegurar unas instalaciones mínimas para el alojamiento de los animales y una infraestructura complementaria que facilite las labores que demande su manejo.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t1-c5.jpg')})`}") 
 
-    Separador
-    br
-    br
-    #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3  Componentes
-    .row.mb-5.justify-content-center
-      .col-lg-10.slideInLeft
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/t1-i2.jpg')})`}"
-          )
-          .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Los sistemas productivos pecuarios están integrados por diversos componentes que se deben articular de manera precisa para conseguir los resultados esperados en materia de rendimientos y calidad del producto final. En términos generales, los elementos que componen cualquier sistema productivo pecuario 
-              span.text-green son la especie animal, el alimento, las instalaciones, los equipos y herramientas, las condiciones agroecológicas y el manejo.
+      Separador
+      br
+      br
+      #t_1_3.titulo-segundo.color-acento-contenido
+        h2 1.3  Componentes
+      .row.mb-5.justify-content-center
+        .col-lg-10.slideInLeft
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/t1-i2.jpg')})`}"
+            )
+            .bloque-texto-g__texto.p-4.shadow-box
+              p.mb-0 Los sistemas productivos pecuarios están integrados por diversos componentes que se deben articular de manera precisa para conseguir los resultados esperados en materia de rendimientos y calidad del producto final. En términos generales, los elementos que componen cualquier sistema productivo pecuario 
+                span.text-green son la especie animal, el alimento, las instalaciones, los equipos y herramientas, las condiciones agroecológicas y el manejo.
 
-    .tarjeta.bg-sliders.p-5.mb-5.shadow-box
-      SlyderA
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p Entre las especies animales más empleadas en sistemas pecuarios están los ovinos, caprinos, equinos, porcinos, aves y mamíferos pequeños como conejos y cuyes. También se encuentran insectos, reptiles y anélidos, como la lombriz de tierra. 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
-            figcaption Especie animal
+      .tarjeta.bg-sliders.p-5.mb-5.shadow-box
+        SlyderA
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p Entre las especies animales más empleadas en sistemas pecuarios están los ovinos, caprinos, equinos, porcinos, aves y mamíferos pequeños como conejos y cuyes. También se encuentran insectos, reptiles y anélidos, como la lombriz de tierra. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
+              figcaption Especie animal
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p Es la fuente de energía que sostiene a los animales que hacen parte del sistema productivo. Puede ser natural, como en el caso de las praderas, o suplementada como se hace en sistemas intensivos avícolas, por ejemplo. 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/t1-s2.png', alt='imagen decorativa')
-            figcaption Alimento
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p Es la fuente de energía que sostiene a los animales que hacen parte del sistema productivo. Puede ser natural, como en el caso de las praderas, o suplementada como se hace en sistemas intensivos avícolas, por ejemplo. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t1-s2.png', alt='imagen decorativa')
+              figcaption Alimento
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            .h4 Alcance de la medición
-            p Son las construcciones o adecuaciones de infraestructura para el alojamiento de los animales o para facilitar las labores de manejo como ordeño, alimentación.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/t1-s3.png', alt='imagen decorativa')
-            figcaption Instalaciones
+          .row
+            .col-md-6.mb-4.mb-md-0
+              .h4 Alcance de la medición
+              p Son las construcciones o adecuaciones de infraestructura para el alojamiento de los animales o para facilitar las labores de manejo como ordeño, alimentación.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t1-s3.png', alt='imagen decorativa')
+              figcaption Instalaciones
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p Son elementos que facilitan el manejo de la explotación pecuaria y que se utilizan para diversas labores. Tipos de equipos: ordeño mecánico, nebulización de medicamentos o ensilaje. Herramientas: fumigadora, tijera, pala, martillo.    
-          .col-md-6
-            figure
-              img(src='@/assets/curso/t1-s4.png', alt='imagen decorativa')
-            figcaption Equipos y herramientas
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p Son elementos que facilitan el manejo de la explotación pecuaria y que se utilizan para diversas labores. Tipos de equipos: ordeño mecánico, nebulización de medicamentos o ensilaje. Herramientas: fumigadora, tijera, pala, martillo.    
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t1-s4.png', alt='imagen decorativa')
+              figcaption Equipos y herramientas
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p Corresponde al factor humano y consiste en la forma como se organizan, administran y disponen los componentes del sistema productivo. Igualmente, se relaciona con el desarrollo de las labores necesarias para su sostenimiento.    
-          .col-md-6
-            figure
-              img(src='@/assets/curso/t1-s5.png', alt='imagen decorativa')
-            figcaption Manejo
+          .row
+            .col-md-6.mb-4.mb-md-0
+              p Corresponde al factor humano y consiste en la forma como se organizan, administran y disponen los componentes del sistema productivo. Igualmente, se relaciona con el desarrollo de las labores necesarias para su sostenimiento.    
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t1-s5.png', alt='imagen decorativa')
+              figcaption Manejo
 
 
-    Separador
-    br
-    br
+      Separador
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4  Principales explotaciones pecuarias
     .row.mb-5
