@@ -124,9 +124,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/t3-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Los aspectos normativos relacionados con la producción pecuaria son aquellos que regulan la forma en la que se deben desarrollar las actividades productivas desde el punto de vista legal para controlar el funcionamiento de la unidad pecuaria.
-
-    p.mb-5  El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales. Igualmente, antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores:
+            p.mb-0 El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales.
+    .titulo-tercero
+      h3  Diseños y características
+    p.mb-5  El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales. Igualmente, antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores: 
     .row.mb-5
       .col-lg-7
         ul.lista-ul
@@ -155,6 +156,7 @@
         figure
           img.nW.centered(src='@/assets/curso/t3-i3.png', alt='imagen decorativa')
 
+    p.mb-5  Dentro de los principales diseños de instalaciones pecuarias se tienen los siguientes:
     .tarjeta.tarjeta--yellow.p-4.mb-5.shadow-box
       LineaTiempoC.color-acento-contenido(text-small)
         .row.p-4(titulo="Corrales")
@@ -484,7 +486,7 @@
                         td 1
                       tr
                         td.text-bold Kilómetro
-                        td 1000
+                        td 1.000
                       tr
                         td.text-bold Decámetro
                         td 10
@@ -502,7 +504,7 @@
                         td 1.609,34
                       tr
                         td.text-bold Pie
-                        td 1.609,34
+                        td 0,3048
                       tr
                         td.text-bold Yarda
                         td 0,9144
@@ -531,9 +533,12 @@
                         td 0,092
                       tr
                         td.text-bold Pulgada²
-                        td 0.83
+                        td 0.0006451
                       tr
                         td.text-bold Yarda²
+                        td 0.83
+                      tr
+                        td.text-bold Km²
                         td 1.000.000
                       tr
                         td.text-bold Fanegada

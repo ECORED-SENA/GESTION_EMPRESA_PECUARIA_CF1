@@ -30,7 +30,7 @@
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa')        
       .col-lg-11(data-aos='slide-left')
-        p.mb-0  En el caso de la producción pecuaria son múltiples los factores que se deben analizar antes de cualquier emprendimiento, por lo que es necesario tomarse el tiempo suficiente para identificar el tipo de explotación, determinar los recursos necesarios y disponibles, conocer el tipo de instalaciones que se requieren y, sobre todo, hacer una programación detallada de las actividades que se llevarán a cabo al interior de la unidad pecuaria, con lo cual será posible darle un orden lógico al sistema, conseguir la productividad esperada y contribuir a la sostenibilidad del proyecto productivo.
+        p.mb-0  Para conseguir unidades pecuarias organizadas conforme a los parámetros técnicos es necesario implementar procesos acordes a la normatividad aplicable, definiendo los recursos disponibles y conociendo los procesos que conlleva la implementación de sistemas en diversos entornos rurales para controlar el funcionamiento de la unidad pecuaria, a continuación, se verán sus características.
 
     .row.mb-5.justify-content-center.green-b
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -314,7 +314,7 @@
             p.mb-0  Sirven para comparar el agroecosistema con otros aledaños.    
           li
             i.fas.fa-check
-            p.mb-0  Sirven para comparar el agroecosistema con otros aledaños.             
+            p.mb-0  Son evidencias útiles para procesos pedagógicos o de investigación.            
           li
             i.fas.fa-check
             p.mb-0  Son un insumo esencial para graficar y procesar la información ambiental del agroecosistema, y en general del plan de manejo aplicado.    

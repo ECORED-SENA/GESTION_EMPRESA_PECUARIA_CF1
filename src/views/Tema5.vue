@@ -64,7 +64,7 @@
     br
     #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2  Protocolos de mantenimiento de equipos e instalaciones
-    p.mb-5  A continuación, se verán los protocolos mantenimiento de equipos:
+    p.mb-5  A continuación, se verán los protocolos de mantenimiento de equipos:
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UQ3yq_lsbNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -142,18 +142,21 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              .h4 Aplicación de desinfectante
-              p.mb-3  Una vez se retiren las partículas de suciedad y los restos de detergente se procede a desinfectar las superficies.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")        
-              
+              .h4 Enjuague posterior
+              p.mb-3  Usando agua se retiran los restos de partículas contaminantes que aún permanezcan sobre la superficie. Es igualmente importante retirar los restos de detergente, ya que estos pueden disminuir la eficacia de los agentes desinfectantes que se usen posteriormente. 
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f4.svg')})`}")     
+
+
+
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
-              .h4 Enjuague posterior
-              p.mb-3  Usando agua se retiran los restos de partículas contaminantes que aún permanezcan sobre la superficie. Es igualmente importante retirar los restos de detergente, ya que estos pueden disminuir la eficacia de los agentes desinfectantes que se usen posteriormente. 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")     
+              .h4 Aplicación de desinfectante
+              p.mb-3  Una vez se retiren las partículas de suciedad y los restos de detergente se procede a desinfectar las superficies.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f5.svg')})`}")        
+            
 
     .titulo-tercero
       h3 Detergentes y desinfectantes
@@ -328,7 +331,7 @@
             p.mb-3  Este tipo de residuos pueden recibir un manejo especial al interior de la explotación pecuaria, pues son totalmente biodegradables y pueden transformarse en abono fácilmente. La gestión de estos residuos comienza con la separación en la fuente. Los residuos orgánicos se disponen en áreas de compostaje o lombricultivo en las cuales mediante procesos enteramente naturales se degradan. Es importante capacitar al personal sobre la importancia de separar los residuos y hacer una correcta disposición.  
           .div(titulo="Residuos especiales")
             p.mb-3 Este tipo de residuos requieren de un manejo distinto debido a que, por su naturaleza y los componentes que los integran, resultan peligrosos para los animales y para el personal que labora en la unidad productiva. Los envases de plaguicidas deben someterse en primera instancia a un proceso conocido como triple lavado, el cual consiste en enjuagar con agua tres veces el recipiente antes de perforarlo y almacenarlo. En relación con los residuos de vacunas se inactivan sumergiéndolos en soluciones desinfectantes por 24 horas. Por su parte las agujas empleadas para la inyección de medicamentos se disponen en “guardianes”, para su posterior disposición.
-
+            p.mb-3  En algunas explotaciones avícolas el manejo de las mortalidades es uno de los temas más complejos, por lo que en muchas de ellas se opta por enterrar los animales y así se reducen los riesgos de transmisión de enfermedades y olores ofensivos.
 
 
 

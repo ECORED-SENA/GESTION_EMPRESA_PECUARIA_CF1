@@ -61,7 +61,7 @@
     
       #t_4_2.titulo-segundo.color-acento-contenido
         h2 4.2  Recursos humanos
-      p.mb-5  Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano)
+      p.mb-5  Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano):
 
       .tarjeta.bg-sliders.p-4.mb-5.shadow-box
         .row
@@ -156,7 +156,6 @@
           figure(data-aos='flip-left')
             img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
         .col-lg-6
-          .h4 Recursos ambientales
           p.mb-3  Otro de los recursos necesarios para adelantar la actividad productiva de manera eficiente, es la identificación de los recursos ambientales, en términos de materiales aprovechables, pero también de servicios ecosistémicos. Para caracterizar la oferta de servicios ambientales, es necesario identificar las condiciones agroecológicas de la zona.
         .col-lg-5
           figure(data-aos='flip-up')
@@ -184,6 +183,11 @@
               p El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas. 
     
     p.mb-5  De acuerdo con sus características, los inventarios en una explotación pecuaria pueden clasificarse de la siguiente manera:
+    
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .cajon.tarjeta--gris.p-4
+          p.mb-0  Para la elaboración de inventarios acordes con las necesidades de la explotación pecuaria, es clave identificar en primera instancia qué se quiere cuantificar y cómo se va a clasificar. Algunos ejemplos de las columnas que pueden llevar los inventarios de materias primas, animales, herramientas y suelos son los siguientes. 
     
     .row.mb-3.justify-content-center
       .col-lg-10
@@ -234,10 +238,6 @@
               figure(data-aos='flip-up')
                 img.nW.centered(src='@/assets/curso/t4-table4.png' alt='imagen decorativa')   
 
-    .row.mb-5.justify-content-center
-      .col-lg-10
-        .cajon.tarjeta--gris.p-4
-          p.mb-0  Para la elaboración de inventarios acordes con las necesidades de la explotación pecuaria, es clave identificar en primera instancia qué se quiere cuantificar y cómo se va a clasificar. Algunos ejemplos de las columnas que pueden llevar los inventarios de materias primas, animales, herramientas y suelos son los siguientes. 
 
 
     .neg-margin-x.bg-curved

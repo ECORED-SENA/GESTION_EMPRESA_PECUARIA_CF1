@@ -26,7 +26,7 @@
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Funcionamiento de la unidad pecuaria.
+          h2 Funcionamiento de la unidad pecuaria
         p.mb-4 Para el adecuado funcionamiento de la unidad pecuaria es necesario conocer los conceptos básicos.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-start.align-items-center            
