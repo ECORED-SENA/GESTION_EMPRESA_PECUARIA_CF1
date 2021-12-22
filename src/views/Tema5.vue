@@ -170,11 +170,26 @@
               img(src='@/assets/curso/t5-i5.jpg', alt='Texto que describa la imagen')
           .clearfix.mb-5
           .col-lg-12
-            figure
-              img(src='@/assets/curso/t5-g1.svg', alt='Texto que describa la imagen')            
+            figure.slideInLeft
+              img(src='@/assets/curso/t5-gx1.svg', alt='Texto que describa la imagen')            
 
+      .py-3.py-md-4(titulo="Desinfectantes")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p.mb-3  En cuanto a los desinfectantes se tiene que es posible que estos no requieran enjuague antes de su uso, aunque esto depende del tipo de desinfectante y su concentración. Estos productos deben estar aprobados por la autoridad sanitaria y su empleo debe realizarse siguiendo las recomendaciones del fabricante. 
+            p.mb-3  Los productos desinfectantes basados en cloro son los más utilizados en diversas industrias, debido a que toleran aguas calcáreas, son fáciles de conseguir, económicos, además que contrarrestan una amplia variedad de hongos y bacterias. Además del cloro, existen otros compuestos basados en amonio cuaternario, que tienen como desventaja que requieren mayor tiempo de exposición para aumentar su efectividad, lo cual les concede un mayor efecto residual. Debido a que no son eficaces frente a algunos patógenos, es recomendable rotarlos con otros desinfectantes.
+          .col-md-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t5-i6.jpg', alt='Texto que describa la imagen')
 
-
+      .py-3.py-md-4(titulo="Otros tipo de desinfectantes")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p.mb-3  En una tercera categoría, están los desinfectantes basados en iodo, denominados iodóforos, los cuales resultan altamente eficaces contra diversos patógenos, incluso hongos y levaduras incluso en bajas concentraciones. Otra de sus ventajas, es que son más estables, menos corrosivos, no irritan la piel y funcionan bien con aguas calcáreas. 
+            p.mb-3  Otro grupo lo conforman los desinfectantes ácidos. Estos poseen una estructura más estable a altas temperaturas o en presencia de materia orgánica, por lo que se utilizan especialmente en la limpieza de equipos. Finalmente, existen otros agentes desinfectantes entre los cuales se destacan el ozono, la luz ultravioleta y el agua caliente, pero su uso es menos común.
+          .col-md-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t5-i7.jpg', alt='Texto que describa la imagen')
 
 
 

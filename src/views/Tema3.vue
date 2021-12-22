@@ -628,6 +628,32 @@
           h2.text-center Aves
           p.text-center Corrales, galpones, camas de postura, incubadoras, comederos, bebederos.      
 
+        .tarjeta.white-card.shadow-box.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/t3-card4.png' alt='AvatarTop')
+          h2.text-center Porcinos
+          p.text-center Porquerizas, parideras, corrales, comederos, bebederos. 
+
+        .tarjeta.white-card.shadow-box.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/t3-card5.png' alt='AvatarTop')
+          h2.text-center Ovinos - caprinos
+          p.text-center Apriscos, plataformas de ordeño, comederos, bebederos.
+          
+        .tarjeta.white-card.shadow-box.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/t3-card6.png' alt='AvatarTop')
+          h2.text-center Especies menores
+          p.text-center Corrales, jaulas individuales, jaulas grupales, comederos, bebederos.
+        .tarjeta.white-card.shadow-box.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/t3-card7.png' alt='AvatarTop')
+          h2.text-center Peces
+          p.text-center Estanques, jaulas flotantes.           
 
       p.mb-5  Otras instalaciones recomendadas para las en la cría de especies pecuarias se describen a continuación, que han de estar acorde a las características de cada especie y los recursos disponibles.
       .row.mb-5

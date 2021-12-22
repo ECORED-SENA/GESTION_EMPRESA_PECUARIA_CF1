@@ -27,7 +27,7 @@
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/t4-i1.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/t4-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 
@@ -77,7 +77,7 @@
             figure(data-aos='flip-right')
               img.nW.centered(src='@/assets/curso/t4-i5.png' alt='imagen decorativa') 
 
-      .row.mb-5.justify-content-center
+      .row.mb-5.justify-content-center.color-cards
         .col-sm-6.col-xl-4.mb-4.mb-xl-0
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -143,11 +143,6 @@
         .col-lg-5
           figure(data-aos='flip-right')
             img.nW.centered(src='@/assets/curso/t4-i6.jpg' alt='imagen decorativa') 
-
-
-
-
-
 
 
     Separador
