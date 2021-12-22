@@ -608,20 +608,20 @@
 
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.white-card.shadow-box.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.h-100
             .col-8
               img(src='@/assets/curso/t3-card1.png' alt='AvatarTop')
           h2.text-center Bovinos - bufalinos
           p.text-center Cercas, corrales, establos, salas de ordeño, comederos, saladeros, bebederos.
 
         .tarjeta.white-card.shadow-box.p-4
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.h-100
             .col-8
               img(src='@/assets/curso/t3-card2.png' alt='AvatarTop')
           h2.text-center Equinos
           p.text-center Cercas, corrales, establos, pesebreras, comederos, bebederos. 
 
-        .tarjeta.white-card.shadow-box.p-4
+        .tarjeta.white-card.shadow-box.p-4.h-100
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/t3-card3.png' alt='AvatarTop')
@@ -632,8 +632,8 @@
       p.mb-5  Otras instalaciones recomendadas para las en la cría de especies pecuarias se describen a continuación, que han de estar acorde a las características de cada especie y los recursos disponibles.
       .row.mb-5
         .col-lg-7
-          .h4.mb-5 Comederos, bebederos y saladeros
-          .wrap.blue-box.p-4.mb-4
+          .h4 Comederos, bebederos y saladeros
+          .wrap2.blue-box.p-4.mb-4
             p.mb-0  Existen múltiples diseños de comederos, los cuales se ajustan a las condiciones de cada explotación y a la disponibilidad de recursos. En el caso de los bovinos, bufalinos y equinos, los comederos a menudo consisten en recipientes o estructuras de mampostería que pueden tener un largo variable y una profundidad de entre 20 a 25 cm. En algunas explotaciones estos comederos se elaboran a partir de materiales reutilizados como llantas o canecas plásticas abiertas por la mitad longitudinalmente. En el caso de los porcinos, ovinos y caprinos, las dimensiones de estos recipientes cambian para lograr la comodidad del animal al momento de alimentarse.
 
           p.mb-4  En las explotaciones porcinas, es común la instalación de bebederos automáticos o “chupos” los cuales se conectan directamente al sistema de conducción de agua para que el animal tome el líquido de forma directa.
