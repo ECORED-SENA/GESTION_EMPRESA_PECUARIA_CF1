@@ -293,9 +293,8 @@
     p.mb-5  Los registros son muy útiles para evaluar y monitorear la situación ambiental del agroecosistema, entre otras aplicaciones:
     .row.mb-5
       .col-lg-5
-        //--
-          figure(data-aos='flip-left')
-            img(src='@/assets/curso/t1-ic1.svg' alt='imagen decorativa') 
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t1-n1.jpg' alt='imagen decorativa') 
       .col-lg-7
         ul.lista-ul(data-aos='slide-right')
           li
@@ -347,7 +346,7 @@
               img(src='@/assets/curso/t1-t1.jpg' alt='imagen decorativa')             
         
           .col-md-8
-            .tabla-a.color-acento-botones.mb-5 
+            .tabla-a.color-acento-contenido.mb-5.slideInLeft 
               table
                 thead
                   tr
@@ -399,8 +398,49 @@
               img(src='@/assets/curso/t1-t2.png' alt='imagen decorativa')             
         
           .col-md-8
-            figure(data-aos='flip-right')
-              img(src='@/assets/curso/t1-tab1.png' alt='imagen decorativa')              
+            .tabla-a.color-acento-contenido.mb-5.slideInLeft
+              table
+                thead
+                  tr
+                    th Especie
+                    th Parámetro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='11') Aves
+                    td Aves que inician - aves que finalizan.
+                    td Número de animales
+                  tr
+                    td Mortalidad diaria.
+                    td Número de animales
+                  tr
+                    td Mortalidad acumulada.
+                    td Porcentaje
+                  tr
+                    td Peso corporal.
+                    td Gramos
+                  tr
+                    td Longitud del pico.
+                    td Milímetros
+                  tr
+                    td Longitud del tarso.
+                    td Centímetros
+                  tr
+                    td Consumo de alimento diario.
+                    td Gramos
+                  tr
+                    td Conversión de alimento.
+                    td Kilogramo / Kilogramo
+                  tr
+                    td Masa del huevo.
+                    td Gramos
+                  tr
+                    td Huevos día.
+                    td Número de huevos
+                  tr
+                    td Porcentaje de pérdida de huevos.
+                    td Porcentaje
+            
 
       .py-3.py-md-4(titulo="Parámetros productivos para porcinos")
         .row
@@ -411,8 +451,48 @@
               img(src='@/assets/curso/t1-t3.png' alt='imagen decorativa')             
         
           .col-md-8
-            figure(data-aos='flip-right')
-              img(src='@/assets/curso/t1-tab2.png' alt='imagen decorativa')         
+            .tabla-a.color-acento-contenido.mb-5.slideInLeft 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Parámetro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='10') Porcinos
+                    td Edad a la primera monta.
+                    td Meses
+                  tr
+                    td Peso corporal.
+                    td Kilogramos
+                  tr
+                    td Conversión de alimento.
+                    td Kilogramos
+                  tr
+                    td Edad al sacrificio.
+                    td Días
+                  tr
+                    td Intervalo destete monta.
+                    td Meses
+                  tr
+                    td Abortos.
+                    td Número de abortos
+                  tr
+                    td Porcentaje de partos.
+                    td Porcentaje
+                  tr
+                    td Lechones nacidos vivos por camada.
+                    td Número de lechones
+                  tr
+                    td Lechones nacidos muertos.
+                    td Número de lechones
+                  tr
+                    td Partos/Cerda/Año.
+                    td Número de partos
+
+                    
+                                       
 
       .py-3.py-md-4(titulo="Parámetros productivos para especies menores")
         .row
@@ -423,8 +503,45 @@
               img(src='@/assets/curso/t1-t4.png' alt='imagen decorativa')             
         
           .col-md-8
-            figure(data-aos='flip-right')
-              img(src='@/assets/curso/t1-tab3.png' alt='imagen decorativa')     
+            .tabla-a.color-acento-contenido.mb-5.slideInLeft 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Parámetro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='10') Especies menores (conejos - cuyes)
+                    td Edad destete.
+                    td Días
+                  tr
+                    td  Peso crías al nacer. 
+                    td  Gramos 
+                  tr
+                    td  Número de crías al año. 
+                    td  Número de animales
+                  tr
+                    td  Partos al año. 
+                    td  Número de partos 
+                  tr
+                    td  Peso. 
+                    td  Kilogramos
+                  tr
+                    td  Camadas/hembra/año. 
+                    td  Número de camadas 
+                  tr
+                    td  Peso crías al destete. 
+                    td  Gramos
+                  tr
+                    td  Edad al sacrificio. 
+                    td  Días 
+                  tr
+                    td  Madurez sexual machos.
+                    td  Días
+                  tr
+                    td  Madurez sexual hembras. 
+                    td  Días
 
       .py-3.py-md-4(titulo="Parámetros productivos para peces")
         .row
@@ -435,8 +552,37 @@
               img(src='@/assets/curso/t1-t5.png' alt='imagen decorativa')             
         
           .col-md-8
-            figure(data-aos='flip-right')
-              img(src='@/assets/curso/t1-tab4.png' alt='imagen decorativa')     
+            .tabla-a.color-acento-contenido.mb-5.slideInLeft 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Parámetro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='10') Peces
+                    td Peso inicial
+                    td Kilogramos
+                  tr
+                    td Peso final
+                    td  Kilogramos 
+                  tr
+                    td  Edad al sacrificio 
+                    td  Días
+                  tr
+                    td  Densidad por metro cúbico 
+                    td  Peces / m³ 
+                  tr
+                    td  Ingesta total individuo 
+                    td  Gramos
+                  tr
+                    td  Longitud total final individuo 
+                    td  Centímetros 
+                  tr
+                    td  Mortalidad 
+                    td  Porcentaje
+     
 
 
 
@@ -493,7 +639,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             .h4 Marco normativo de las Buenas Prácticas Pecuarias (BPP) –  Buenas Prácticas Ganaderas (BPG)
-            p 
+            p De acuerdo con lo expuesto por el Instituto Colombiano Agropecuario, existe un marco normativo para todos los aspectos relacionados con las buenas prácticas (sean pecuarias o ganaderas) que contribuye a la disminución de los riesgos a la salud asociados con el consumo de alimentos de origen animal.
         
           .col-md-5
             figure.slideInLeft
@@ -522,36 +668,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
