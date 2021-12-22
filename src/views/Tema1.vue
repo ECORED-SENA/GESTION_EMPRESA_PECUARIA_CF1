@@ -643,18 +643,19 @@
         
           .col-md-5
             figure.slideInLeft
-              img(src='@/assets/curso/t1-m1.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/t1-tb1.jpg', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Protocolos para acceder a la certificación" :icono="require('@/assets/curso/t1-ic3.svg')")
         .row
-          .col-md-7.mb-4.mb-md-0
+          .col-md-12.mb-5.mb-md-0
             .h4 Protocolos para acceder a la certificación
-            p 
         
-          .col-md-5
+          .col-md-6
             figure.slideInLeft
-              img(src='@/assets/curso/t1-m1.jpg', alt='Texto que describa la imagen')
-
+              img(src='@/assets/curso/t1-list1.svg', alt='imagen decorativa')
+          .col-md-6
+            figure.slideInRight
+              img(src='@/assets/curso/t1-list2.svg', alt='imagen decorativa')
 
 
 
