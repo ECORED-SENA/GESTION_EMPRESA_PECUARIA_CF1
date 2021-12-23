@@ -18,21 +18,21 @@
 
     .tarjeta.bg-sliders.shadow-box.p-5.mb-5
       SlyderA
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             p En cualquier explotación pecuaria, sin importar la especie, es necesario contar con instalaciones que atiendan las necesidades básicas de los animales; refugio, agua y alimento. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-s1.png', alt='imagen decorativa')
               figcaption Instalaciones pecuarias
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             p El tipo de instalaciones a emplear, así como el área a construir, dependen principalmente del número de animales a alojar, de las condiciones agroecológicas de la zona, de la disponibilidad de recursos y del tipo de explotación que se desee implementar.
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s2.png', alt='imagen decorativa')
               figcaption Instalaciones pecuarias
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             p Principales instalaciones pecuarias:
             ul.lista-ul
@@ -60,7 +60,7 @@
               img.nW.centered(src='@/assets/curso/t3-s3.png', alt='imagen decorativa')
               figcaption Instalaciones pecuarias
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Cerramiento
             p Tienen el propósito de contener los animales en un área determinada: cercas, espalderas, cercas vivas, enmallados y muros. 
@@ -69,7 +69,7 @@
               img.nW.centered(src='@/assets/curso/t3-s4.png', alt='imagen decorativa')
               figcaption Cerramiento
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Manejo
             p Se construyen para facilitar las labores de manejo de los animales: corrales, embarcaderos, apretaderos, parideras, casetas de ordeño y apriscos.
@@ -78,7 +78,7 @@
               img.nW.centered(src='@/assets/curso/t3-s5.png', alt='imagen decorativa')
               figcaption Manejo
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Alimentación
             p Facilitan la dispensación del agua, el alimento y los suplementos a los animales: comederos y bebederos.
@@ -87,7 +87,7 @@
               img.nW.centered(src='@/assets/curso/t3-s6.png', alt='imagen decorativa')
               figcaption Alimentación
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Alojamiento
             p Permiten contener a los animales durante su ciclo productivo y resguardarlos de los depredadores. Especialmente se utilizan para especies menores: jaulas, galpones, porquerizas y camas.
@@ -96,7 +96,7 @@
               img.nW.centered(src='@/assets/curso/t3-s7.png', alt='imagen decorativa')
               figcaption Alojamiento             
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Cuidados especiales
             p Son instalaciones que facilitan el cuidado de los animales en situaciones especiales, enfermos o durante la cría: pesebreras y establos. 
@@ -105,7 +105,7 @@
               img.nW.centered(src='@/assets/curso/t3-s8.png', alt='imagen decorativa')
               figcaption Cuidados especiales  
 
-        .row
+        .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             .h4 Almacenamiento 
             p Almacenamiento de materias primas, insumos, medicamentos, alimentos y productos: bodegas, almacenes y graneros. 
@@ -719,53 +719,55 @@
       SlyderA
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Instalaciones complementarias
             p.mb-3 Estas instalaciones por lo general se encargan de dar confort a los animales, facilitar las labores y proporcionar los cuidados necesarios para su sostenibilidad. 
             p.mb-3  Las instalaciones más comunes que se encuentran en las unidades pecuarias cumplen las siguientes funciones.
           .col-md-6
             figure
               img(src='@/assets/curso/t3-m1.png', alt='imagen decorativa')
-              figcaption Instalaciones complementarias
 
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Control de temperatura
             p.mb-3 El control de temperatura es uno de los factores más críticos sobre todo en procesos de cría. Para esto se emplean cortinas que, dependiendo de la necesidad, se pueden abrir o cerrar.
             p.mb-3  También existen sistemas de calefacción que utilizan energía eléctrica o combustible para alimentar lámparas, por medio de los cuales se puede regular la temperatura en las camas, en el caso de cerdos, o en las jaulas en el caso de pollos recién nacidos.
           .col-md-6
             figure
-              img(src='@/assets/curso/t3-m2.png', alt='imagen decorativa')
-              figcaption Control de temperatura
+              img(src='@/assets/curso/t3-m2.png', alt='imagen decorativa') 
 
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Oxigenación de estanques
             p.mb-3 La oxigenación de estanques, en la cría de peces, es necesaria para garantizar la oxigenación del agua, por lo que en algunos casos es imperioso adecuar las instalaciones para la operación de estos equipos. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-m3.png', alt='imagen decorativa')
-              figcaption Oxigenación de estanques
+
 
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Aireación y ventilación 
             p.mb-3 La aireación y ventilación en sistemas intensivos es común que se requiera ventilar el lugar de alojamiento, especialmente en épocas calurosas, por lo que se deben adecuar instalaciones que faciliten la circulación del aire y la disipación de gases nocivos. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-m4.png', alt='imagen decorativa')
-              figcaption Aireación y ventilación 
+
 
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Manejo de residuos 
             p.mb-3 El manejo de residuos en todas las explotaciones pecuarias se producen residuos sólidos, por lo que es necesario adecuar espacios en los que se haga un manejo técnico de estos desechos bien sea para su disposición parcial o a su disposición final. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-m5.png', alt='imagen decorativa')
-              figcaption Manejo de residuos 
 
         .row
           .col-md-6.mb-4.mb-md-0
+            .h4 Bombeo de agua
             p.mb-3 El bombeo de agua en algunas explotaciones el acceso al agua puede llegar a ser limitante, por lo que una de las alternativas es el bombeo de agua. Teniendo en cuenta estas condiciones, es necesario adecuar instalaciones que cumplan con este objetivo. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-m6.png', alt='imagen decorativa')
-              figcaption Bombeo de agua
 
 
     .titulo-tercero
