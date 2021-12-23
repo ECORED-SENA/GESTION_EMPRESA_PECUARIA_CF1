@@ -96,46 +96,46 @@
 
       .tarjeta.bg-sliders.p-5.mb-5.shadow-box
         SlyderA
-          .row
+          .row.align-items-center
             .col-md-6.mb-4.mb-md-0
+              .h4 Especie animal
               p Entre las especies animales más empleadas en sistemas pecuarios están los ovinos, caprinos, equinos, porcinos, aves y mamíferos pequeños como conejos y cuyes. También se encuentran insectos, reptiles y anélidos, como la lombriz de tierra. 
             .col-md-6
               figure
                 img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
-              figcaption Especie animal
 
-          .row
+          .row.align-items-center
             .col-md-6.mb-4.mb-md-0
+              .h4 Alimento
               p Es la fuente de energía que sostiene a los animales que hacen parte del sistema productivo. Puede ser natural, como en el caso de las praderas, o suplementada como se hace en sistemas intensivos avícolas, por ejemplo. 
             .col-md-6
               figure
-                img(src='@/assets/curso/t1-s2.png', alt='imagen decorativa')
-              figcaption Alimento
+                img(src='@/assets/curso/t1-s2.png', alt='imagen decorativa') 
 
-          .row
+          .row.align-items-center
             .col-md-6.mb-4.mb-md-0
-              .h4 Alcance de la medición
+              .h4 Instalaciones
               p Son las construcciones o adecuaciones de infraestructura para el alojamiento de los animales o para facilitar las labores de manejo como ordeño, alimentación.
             .col-md-6
               figure
                 img(src='@/assets/curso/t1-s3.png', alt='imagen decorativa')
-              figcaption Instalaciones
 
-          .row
+          .row.align-items-center
             .col-md-6.mb-4.mb-md-0
+              .h4 Equipos y herramientas
               p Son elementos que facilitan el manejo de la explotación pecuaria y que se utilizan para diversas labores. Tipos de equipos: ordeño mecánico, nebulización de medicamentos o ensilaje. Herramientas: fumigadora, tijera, pala, martillo.    
             .col-md-6
               figure
                 img(src='@/assets/curso/t1-s4.png', alt='imagen decorativa')
-              figcaption Equipos y herramientas
 
-          .row
+          .row.align-items-center
             .col-md-6.mb-4.mb-md-0
+              .h4 Manejo
               p Corresponde al factor humano y consiste en la forma como se organizan, administran y disponen los componentes del sistema productivo. Igualmente, se relaciona con el desarrollo de las labores necesarias para su sostenimiento.    
             .col-md-6
               figure
                 img(src='@/assets/curso/t1-s5.png', alt='imagen decorativa')
-              figcaption Manejo
+
 
 
       Separador

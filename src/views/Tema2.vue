@@ -365,27 +365,33 @@
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
-                .h3 Plan de ordenamiento territorial
+                .h4 Plan de ordenamiento territorial
                 p Este tipo de explotaciones, dependiendo de la especie animal, se puede hacer un manejo enfocado en los individuos (como en el caso de los bovinos o los equinos) o en las poblaciones (como ocurre con las aves, conejos o cuyes).
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f1.svg')})`}")  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f1.svg')})`}")
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Plan de ordenamiento territorial 
 
         .col-8.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
-                .h3 Usos del suelo
+                .h4 Usos del suelo
                 p Dependiendo de las condiciones ambientales o de la disponibilidad de alimento, algunas de las explotaciones pecuarias pueden trasladarse de un lugar a otro. Esto se da sobre todo en la producción ganadera, donde es común la migración de animales según las épocas de abundancia o escasez de pasturas.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f2.svg')})`}")  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f2.svg')})`}")
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Usos del suelo 
 
         .col-8.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
-                .h3 Zonas de alto riesgo
+                .h4 Zonas de alto riesgo
                 p Siempre que se desarrolla un sistema productivo pecuario es necesario asegurar unas instalaciones mínimas para el alojamiento de los animales y una infraestructura complementaria que facilite las labores que demande su manejo.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f3.svg')})`}")  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t2-f3.svg')})`}")
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Zonas de alto riesgo                
 
 
 
