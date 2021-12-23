@@ -112,6 +112,8 @@
     
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  Instalaciones pecuarias
+    .titulo-tercero
+      h3  Diseños y características
     .row.mb-5.justify-content-center
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos='flip-up')
@@ -119,10 +121,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/t3-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales.
-    .titulo-tercero
-      h3  Diseños y características
-    p.mb-5  El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales. Igualmente, antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores: 
+            p.mb-0 El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales. Igualmente, antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores: 
+    
     .row.mb-5
       .col-lg-7
         ul.lista-ul
