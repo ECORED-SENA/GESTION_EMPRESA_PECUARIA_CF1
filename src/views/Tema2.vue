@@ -165,7 +165,7 @@
               figure
                 img(src='@/assets/curso/t2-info1.svg', alt='Texto que describa la imagen')
 
-            div(x="82%" y="5%" tooltip="Ver más" numero="+")
+            div(x="81%" y="85%" tooltip="Ver más" numero="+")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-7
@@ -193,7 +193,7 @@
                     figure
                       img(src='@/assets/curso/t1-p1.png', alt='imagen decorativa')
 
-            div(x="90%" y="47%" tooltip="Ver más" numero="+")
+            div(x="82%" y="5%" tooltip="Ver más" numero="+")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-7
@@ -235,7 +235,7 @@
                     figure
                       img(src='@/assets/curso/t2-p2.svg', alt='imagen decorativa')
 
-            div(x="81%" y="85%" tooltip="Ver más" numero="+")
+            div(x="90%" y="47%" tooltip="Ver más" numero="+")
               .tarjeta.white-card.p-4
                 .row
                   .col-lg-7

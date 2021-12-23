@@ -163,6 +163,8 @@
 
     .titulo-tercero 
       h3  Condiciones agroecológicas
+    p.mb-5  De acuerdo con sus características, los inventarios en una explotación pecuaria pueden clasificarse de la siguiente manera:
+
     .row.mb-5.justify-content-center
       .col-lg-10
         ImagenInfografica.color-primario.mb-5
@@ -182,7 +184,6 @@
             .tarjeta.color-primario.p-4.shadow-box
               p El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas. 
     
-    p.mb-5  De acuerdo con sus características, los inventarios en una explotación pecuaria pueden clasificarse de la siguiente manera:
 
     .row.mb-5.justify-content-center
       .col-lg-10

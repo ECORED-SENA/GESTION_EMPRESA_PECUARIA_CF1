@@ -533,7 +533,7 @@
                         td 0,092
                       tr
                         td.text-bold Pulgada²
-                        td 0.0006451
+                        td 0.00064516
                       tr
                         td.text-bold Yarda²
                         td 0.83
