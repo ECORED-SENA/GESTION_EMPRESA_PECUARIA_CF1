@@ -20,21 +20,21 @@
       SlyderA
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
+            .h4 Instalaciones pecuarias
             p En cualquier explotación pecuaria, sin importar la especie, es necesario contar con instalaciones que atiendan las necesidades básicas de los animales; refugio, agua y alimento. 
           .col-md-6
             figure
               img(src='@/assets/curso/t3-s1.png', alt='imagen decorativa')
-              figcaption Instalaciones pecuarias
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
+            .h4 Instalaciones pecuarias
             p El tipo de instalaciones a emplear, así como el área a construir, dependen principalmente del número de animales a alojar, de las condiciones agroecológicas de la zona, de la disponibilidad de recursos y del tipo de explotación que se desee implementar.
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s2.png', alt='imagen decorativa')
-              figcaption Instalaciones pecuarias
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p Principales instalaciones pecuarias:
+            .h4 Principales instalaciones pecuarias:
             ul.lista-ul
               li
                 i.fas.fa-check
@@ -67,7 +67,6 @@
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s4.png', alt='imagen decorativa')
-              figcaption Cerramiento
 
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -85,7 +84,6 @@
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s6.png', alt='imagen decorativa')
-              figcaption Alimentación
 
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -93,8 +91,7 @@
             p Permiten contener a los animales durante su ciclo productivo y resguardarlos de los depredadores. Especialmente se utilizan para especies menores: jaulas, galpones, porquerizas y camas.
           .col-md-6
             figure
-              img.nW.centered(src='@/assets/curso/t3-s7.png', alt='imagen decorativa')
-              figcaption Alojamiento             
+              img.nW.centered(src='@/assets/curso/t3-s7.png', alt='imagen decorativa')             
 
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -103,7 +100,6 @@
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s8.png', alt='imagen decorativa')
-              figcaption Cuidados especiales  
 
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -112,7 +108,6 @@
           .col-md-6
             figure
               img.nW.centered(src='@/assets/curso/t3-s9.png', alt='imagen decorativa')
-              figcaption Almacenamiento   
 
     
     #t_3_1.titulo-segundo.color-acento-contenido
