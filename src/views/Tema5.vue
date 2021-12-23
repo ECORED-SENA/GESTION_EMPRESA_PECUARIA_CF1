@@ -119,7 +119,9 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               .h4 Limpieza en seco
               p.mb-3  Se utiliza una escoba o un cepillo para barrer todas las impurezas y agentes contaminantes presentes en las superficies de la unidad pecuaria.  
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f1.svg')})`}")  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f1.svg')})`}")
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Limpieza en seco
       .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -128,6 +130,8 @@
               .h4 Enjuague previo
               p.mb-3  Con la ayuda de agua se quitan pequeñas partículas que no fueron retiradas en la fase de lavado en seco.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f2.svg')})`}")  
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Enjuague previo
       .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -135,7 +139,9 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               .h4 Aplicación de detergente
               p.mb-3  Con el detergente se desprenden la suciedad y las películas bacterianas y las mantienen en solución o suspensión. 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}")  
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f3.svg')})`}") 
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Aplicación de detergente
     .row.mb-5.justify-content-center.green-b
       .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
@@ -145,7 +151,8 @@
               .h4 Enjuague posterior
               p.mb-3  Usando agua se retiran los restos de partículas contaminantes que aún permanezcan sobre la superficie. Es igualmente importante retirar los restos de detergente, ya que estos pueden disminuir la eficacia de los agentes desinfectantes que se usen posteriormente. 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f4.svg')})`}")     
-
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Enjuague posterior
 
 
       .col-10.col-sm-6.col-xl-4.mb-4.mb-xl-0.mh-300
@@ -156,7 +163,8 @@
               .h4 Aplicación de desinfectante
               p.mb-3  Una vez se retiren las partículas de suciedad y los restos de detergente se procede a desinfectar las superficies.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/t5-f5.svg')})`}")        
-            
+                .tarjeta-flip__titulo.py-2
+                  .h4.m-0.text-center Aplicación de desinfectante
 
     .titulo-tercero
       h3 Detergentes y desinfectantes
@@ -274,6 +282,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g1.svg')})`}")
+              .tarjeta-flip__titulo.py-2
+                .h4.m-0.text-center Residuos reciclables
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               .h4 Residuos reciclables
               p En esta categoría se ubican materiales como cartón, papel, plástico, PVC, polietileno, vidrio y metales. 
@@ -283,6 +293,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g2.svg')})`}")
+              .tarjeta-flip__titulo.py-2
+                .h4.m-0.text-center Residuos no reciclables            
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               .h4 Residuos no reciclables
               p Papel o cartón contaminados, restos de comida, bombillas. 
@@ -292,6 +304,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g3.svg')})`}")
+              .tarjeta-flip__titulo.py-2
+                .h4.m-0.text-center Residuos orgánicos               
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               .h4 Residuos orgánicos
               p Excretas, plumas, huevos dañados, restos vegetales.
@@ -301,6 +315,8 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-g4.svg')})`}")
+              .tarjeta-flip__titulo.py-2
+                .h4.m-0.text-center Residuos especiales
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               .h4 Residuos especiales
               p Empaques de productos agroquímicos, residuos de medicamentos, restos anatomopatológicos, empaques de sustancias corrosivas.
